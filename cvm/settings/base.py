@@ -156,10 +156,10 @@ context_processors = [
     # 'social_django.context_processors.login_redirect'
 ]
 
-# loaders = [
-#     'django.template.loaders.filesystem.Loader',
-#     'django.template.loaders.app_directories.Loader']
-#
+loaders = [
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader']
+
 # if not DEBUG:
 #     loaders = [('django.template.loaders.cached.Loader', loaders)]
 
@@ -170,7 +170,7 @@ TEMPLATES = [
         'OPTIONS': {
             'debug': DEBUG,
             'context_processors': context_processors,
-            # 'loaders': loaders,
+            'loaders': loaders,
             'string_if_invalid': '<< MISSING VARIABLE "%s" >>' if DEBUG else ''
         },
     },

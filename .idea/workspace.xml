@@ -1,8 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment=".">
+    <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/djangojs.mo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/djangojs.po" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/_items.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/_language_picker.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/address_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/address_edit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/details.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/partials/already_logged_in.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/partials/login_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/password_change.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/password_reset.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/password_reset_base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/password_reset_done.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/password_reset_from_key.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/password_reset_from_key_done.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/signup.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/snippets/address_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/snippets/datalist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/account/snippets/phone_prefix_widget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/cart/_subtotal_table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/cart/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/cart_dropdown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/filters.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/category/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/details.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/payment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/shipping_address.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/shipping_method.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/snippets/addresses_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/snippets/addresses_form_panel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/snippets/voucher_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/checkout/summary_without_shipping.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/collection/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/base_modal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/base_zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/category/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/category/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/category/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/category/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/category/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/collection/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/collection/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/collection/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/collection/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/customer/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/customer/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/customer/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/customer/modal/confirm_promote.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/customer/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/sale/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/discount/voucher/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/group/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/group/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/group/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/group/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_address.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_back_link.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_bulk_actions_bar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_filters.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_google_preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_menu_items.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_page_availability.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_pagination.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/includes/_sorting_header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/item/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/item/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/item/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/menu/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/address_form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/fulfillment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/add_note.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/add_variant_to_order.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/cancel_fulfillment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/cancel_line.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/cancel_order.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/capture.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/change_quantity.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/create_order.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_customer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_discount.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_shipping.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/edit_voucher.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/fulfillment_tracking.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/mark_as_paid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/order_line_stock.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/refund.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/release.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/modal/remove_order.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/pdf/invoice.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/pdf/packing_slip.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/widget/phone_prefix_widget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/order/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/page/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/page/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/page/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/page/modal_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/page/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/_stock_table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/modal/select_type.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_attribute/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_attribute/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_attribute/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_attribute/modal/attribute_confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_attribute/values/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_attribute/values/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_attribute/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_image/versatile_image.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_type/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/_image_select.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/product_variant/modal/select_images.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/stock/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/stock/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/stock/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/stock_location/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/stock_location/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/stock_location/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/stock_location/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/product/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/search/results.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/shipping/country/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/shipping/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/shipping/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/shipping/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/shipping/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/shipping/modal/country_confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/shipping/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/sites/authorization_keys/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/sites/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/sites/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/sites/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/staff/detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/staff/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/staff/modal/confirm_delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/staff/zero_page.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/dashboard/styleguide/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/favicon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/formatted_address.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/materializecssform/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/materializecssform/field.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/materializecssform/form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/materializecssform/formset.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/menu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/order/_ordered_items_table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/order/checkout_success.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/order/checkout_success_anonymous.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/order/details.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/order/payment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/order/payment/default.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/order/payment/details.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/page/details.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/payments/credit_card_expiry_widget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/prices/widget.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/product/_filters.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/product/_items.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/product/_price_range.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/product/details.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/product/product_list_base.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/search/results.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/status_label.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/styleguide.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/confirm_fulfillment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/confirm_note.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/confirm_order.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/confirm_payment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/password_reset.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/promote_customer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/set_password.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/compiled/update_fulfillment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/account/password_reset.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/account/password_reset.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/dashboard/staff/promote_customer.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/dashboard/staff/promote_customer.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/dashboard/staff/set_password.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/dashboard/staff/set_password.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/confirm_fulfillment.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/confirm_fulfillment.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/confirm_order.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/confirm_order.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/note/confirm_note.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/note/confirm_note.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/partials/_fulfillment_lines.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/partials/_order_lines.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/payment/confirm_payment.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/payment/confirm_payment.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/update_fulfillment.email" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/order/update_fulfillment.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/shared/footer.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/shared/header.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/templated_email/source/shared/styles.mjml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/weight_field_widget.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cvm/db.sqlite3" afterPath="$PROJECT_DIR$/cvm/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/cvm/settings/base.py" afterPath="$PROJECT_DIR$/cvm/settings/base.py" />
+      <change beforePath="$PROJECT_DIR$/cvm/urls.py" afterPath="$PROJECT_DIR$/cvm/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +333,23 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -28,11 +357,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cvm/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="90" column="65" lean-forward="false" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -72,7 +411,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cvm/urls.py" />
         <option value="$PROJECT_DIR$/requirements_dev.txt" />
         <option value="$PROJECT_DIR$/cvm/settings/local.py" />
         <option value="$PROJECT_DIR$/cvm/settings/__init__.py" />
@@ -80,9 +418,10 @@
         <option value="$PROJECT_DIR$/runfile/secret.json.js" />
         <option value="$PROJECT_DIR$/runfile/secret.json" />
         <option value="$PROJECT_DIR$/runfile/sdf.html" />
-        <option value="$PROJECT_DIR$/cvm/settings/base.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/cvm/settings/base.py" />
+        <option value="$PROJECT_DIR$/cvm/urls.py" />
       </list>
     </option>
   </component>
@@ -282,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526639822305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1526643781070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526643781070</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -331,6 +677,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2355">
           <caret line="157" column="61" lean-forward="true" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -356,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements_dev.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -374,6 +716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -395,6 +738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -411,13 +755,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="143" column="21" lean-forward="true" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -425,6 +763,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="90" column="65" lean-forward="false" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
           <folding />
         </state>
       </provider>
