@@ -1,0 +1,6 @@
+pip==9.0.3
+setuptools==39.1.0
+wheel==0.31.1
+
+Django==1.11.13
+pytz==2018.4
