@@ -2,5 +2,8 @@ pip==9.0.3
 setuptools==39.1.0
 wheel==0.31.1
 
+dj-database-url==0.4.2
+dj-email-url==0.0.10
 Django==1.11.13
+django-cache-url==2.0.0
 pytz==2018.4
