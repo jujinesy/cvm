@@ -2,281 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment=".">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/analytics.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/context_processors.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/exceptions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/filters.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/management/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/management/commands/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/management/commands/create_thumbnails.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/management/commands/populatedb.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/middleware.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/permissions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/sitemaps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/storages.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/attributes.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/dashboard.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/markdown.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/materializecss.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/placeholder.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/shop.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/status.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/templatetags/version.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/utils/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/utils/filters.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/utils/form_renderer.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/utils/random_data.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/utils/text.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/core/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/account-circle.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/add.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/arrow-drop-down.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/arrow-left.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/chevron-left.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/chevron-right.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/close.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/collections.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/description.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/done.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/edit.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/align_center.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/align_justify.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/align_left.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/align_right.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/format_clear.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/insert_link.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/insert_photo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/editor/quote.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/email.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/help.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/history.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/mobile-menu.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/more-vert.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/payment.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/phone.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/reorder.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/search.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/store.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/images/style.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/async-form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/bulk-actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/datepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/editor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/filters.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/google-preview.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/image-gallery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/messages.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/misc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/modal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/selects.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/side-menu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/tab.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/components/vouchers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/dashboard.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/js/document.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_breadcrumbs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_buttons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_card-collapse.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_chars-left.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_data-table.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_dropzone.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_form.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_formset.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_global.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_google-preview.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_menu.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_modals.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_nav.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_pagination.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_ppoi.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_product-gallery.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_rich-text-editor.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_search.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_select2.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_tabs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_timeline.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/components/_zero-page.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/dashboard.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/document.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/layouts/_orders.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/layouts/_search-results.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/layouts/_style-guide.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/print.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/dashboard/scss/variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/android-chrome-192x192.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/android-chrome-512x512.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/apple-touch-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/browserconfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/favicon-16x16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/favicon-32x32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/mstile-144x144.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/mstile-150x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/mstile-310x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/mstile-310x310.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/mstile-70x70.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/favicons/safari-pinned-tab.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/2C8496_1_0.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/2C8496_1_0.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/2C8496_1_0.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/2C8496_1_0.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Bold.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Bold.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Light.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Light.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/fonts/Lato-Regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/arrow-down-icon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/arrow-down.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/arrow-left.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/arrow-select.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/arrow-up-icon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/arrow-up.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/block1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/block2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/block3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/cart.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/checkout-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/checkout-bg2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/chevron-down.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/chevron-up.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/close.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/confirm-order-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/confirm-order-bg2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/delete.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/dribbble-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/edit.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/empty-cart-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/empty-cart-bg2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/facebook-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/favicon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/filter-icon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/gallery-arrow.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/github-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/google-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/instagram-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/linkedin-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/loader.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/login-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/login-bg2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/logo-document.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/meetup-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/mobile-menu.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/no-results-bg.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/pass-invisible.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/pass-visible.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/placeholder1080x1080.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/placeholder120x120.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/placeholder255x255.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/placeholder540x540.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/placeholder60x60.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/reset-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/sale-bg.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/sample-product.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/sample-product2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/search.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/images/twitter-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/address-form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/cart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/footer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/language-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/misc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/navbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/password-input.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/product-filters.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/sorter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/styleguide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/variant-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/variantPicker/AttributeSelectionWidget.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/variantPicker/QuantityInput.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/variantPicker/VariantPicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/components/variantPicker/VariantPrice.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/storefront.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/js/stores/variantPicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/books/book-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/books/book-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/books/book-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/books/book-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/books/book-05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/candy/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/candy/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/coffee/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/coffee/coffee-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/coffee/coffee-02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/coffee/coffee-03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/coffee/coffee-04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/mugs/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/mugs/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/mugs/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/mugs/box-01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/products-list/accessories.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/products-list/apparel.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/products-list/books.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/products-list/groceries.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/products-list/sale.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/products-list/summer.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/t-shirts/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/placeholders/t-shirts/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_breadcrumbs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_buttons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_cards.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_cart-dropdown.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_filters.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_footer.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_forms.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_header.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_labels.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_loader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_pagination.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_table.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_tabs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_typography.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/components/_variant-picker.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_account.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_cart.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_checkout.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_home.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_login.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_no-results.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_order-details.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_product-list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_product-page.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/layouts/_styleguide.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/storefront.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cvm/static/scss/variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/cvm.iml" afterPath="$PROJECT_DIR$/.idea/cvm.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cvm/__init__.py" afterPath="$PROJECT_DIR$/cvm/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/cvm/db.sqlite3" afterPath="$PROJECT_DIR$/cvm/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/cvm/settings/base.py" afterPath="$PROJECT_DIR$/cvm/settings/base.py" />
-      <change beforePath="$PROJECT_DIR$/cvm/urls.py" afterPath="$PROJECT_DIR$/cvm/urls.py" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -388,11 +115,11 @@
         <option value="$PROJECT_DIR$/cvm/core/views.py" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/cvm/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/cvm/settings/base.py" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -401,6 +128,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="37" />
@@ -424,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,12 +167,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -613,18 +343,18 @@
     <frame x="37" y="23" width="1643" height="1027" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5021861" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49781388" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26858214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27795127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -655,9 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2355">
           <caret line="157" column="61" lean-forward="true" selection-start-line="157" selection-start-column="61" selection-end-line="157" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,7 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,9 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="28" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,15 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="98" column="22" lean-forward="false" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="103" column="1" lean-forward="false" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="62" column="39" lean-forward="false" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,10 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
           <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding>
-            <marker date="1526757084758" expanded="true" signature="354:359" ph="&amp;" />
-            <marker date="1526757084758" expanded="true" signature="1018:1023" ph="&amp;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4194">
           <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +703,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
         </state>
       </provider>
     </entry>
