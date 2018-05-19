@@ -4,3 +4,15 @@ __pycache__/
 *$py.class
 .DS_Store
 runfile/secret.json
+
+
+/docs/_build/
+/media/
+/node_modules/
+/static/
+/cvm/static/assets/
+webpack-bundle.json
+/templates/templated_email/compiled/
+
+
+package-lock.json

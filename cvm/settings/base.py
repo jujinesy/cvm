@@ -122,17 +122,19 @@ USE_TZ = True
 #
 # DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
 # ORDER_FROM_EMAIL = os.getenv('ORDER_FROM_EMAIL', DEFAULT_FROM_EMAIL)
-#
-# MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media')
-# MEDIA_URL = '/media/'
-#
-# STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media')
+MEDIA_URL = '/media/'
+
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 STATIC_URL = '/static/'
-# STATICFILES_DIRS = [
-#     ('assets', os.path.join(PROJECT_ROOT, 'saleor', 'static', 'assets')),
-#     ('favicons', os.path.join(PROJECT_ROOT, 'saleor', 'static', 'favicons')),
-#     ('images', os.path.join(PROJECT_ROOT, 'saleor', 'static', 'images')),
-#     ('dashboard', os.path.join(PROJECT_ROOT, 'saleor', 'static', 'dashboard'))]
+STATICFILES_DIRS = [
+    ('assets', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'assets')),
+    ('favicons', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'favicons')),
+    ('images', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'images')),
+    ('dashboard', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'dashboard'))
+]
+
 # STATICFILES_FINDERS = [
 #     'django.contrib.staticfiles.finders.FileSystemFinder',
 #     'django.contrib.staticfiles.finders.AppDirectoriesFinder']
@@ -143,10 +145,10 @@ context_processors = [
     'django.contrib.auth.context_processors.auth',
     'django.contrib.messages.context_processors.messages',
 
-    # 'django.template.context_processors.i18n',
-    # 'django.template.context_processors.media',
-    # 'django.template.context_processors.static',
-    # 'django.template.context_processors.tz',
+    'django.template.context_processors.i18n',
+    'django.template.context_processors.media',
+    'django.template.context_processors.static',
+    'django.template.context_processors.tz',
     # 'saleor.core.context_processors.default_currency',
     # 'saleor.cart.context_processors.cart_counter',
     # 'saleor.core.context_processors.navigation',
@@ -188,8 +190,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    # 'django.middleware.locale.LocaleMiddleware',
-    # 'django_babel.middleware.LocaleMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
+    'django_babel.middleware.LocaleMiddleware',
     # 'graphql_jwt.middleware.JSONWebTokenMiddleware',
     # 'saleor.core.middleware.discounts',
     # 'saleor.core.middleware.google_analytics',
@@ -211,8 +213,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 'django.contrib.sitemaps',
-    # 'django.contrib.sites',
+    'django.contrib.sitemaps',
+    'django.contrib.sites',
     # 'django.contrib.postgres',
 
     # # Local apps
@@ -221,7 +223,7 @@ INSTALLED_APPS = [
     # 'saleor.product',
     # 'saleor.cart',
     # 'saleor.checkout',
-    # 'saleor.core',
+    'cvm.core',
     # 'saleor.graphql',
     # 'saleor.menu',
     # 'saleor.order.OrderAppConfig',
@@ -235,14 +237,14 @@ INSTALLED_APPS = [
     #
     # # External apps
     # 'versatileimagefield',
-    # 'django_babel',
-    # 'bootstrap4',
+    'django_babel',
+    'bootstrap4',
     # 'django_prices',
     # 'django_prices_openexchangerates',
     # 'graphene_django',
     # 'mptt',
     # 'payments',
-    # 'webpack_loader',
+    'webpack_loader',
     # 'social_django',
     # 'django_countries',
     # 'django_filters',
@@ -405,17 +407,17 @@ ALLOWED_HOSTS = get_list(os.environ.get('ALLOWED_HOSTS', 'localhost'))
 #
 # DEFAULT_PLACEHOLDER = 'images/placeholder255x255.png'
 #
-# WEBPACK_LOADER = {
-#     'DEFAULT': {
-#         'CACHE': not DEBUG,
-#         'BUNDLE_DIR_NAME': 'assets/',
-#         'STATS_FILE': os.path.join(PROJECT_ROOT, 'webpack-bundle.json'),
-#         'POLL_INTERVAL': 0.1,
-#         'IGNORE': [
-#             r'.+\.hot-update\.js',
-#             r'.+\.map']}}
-#
-#
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'CACHE': not DEBUG,
+        'BUNDLE_DIR_NAME': 'assets/',
+        'STATS_FILE': os.path.join(PROJECT_ROOT, 'webpack-bundle.json'),
+        'POLL_INTERVAL': 0.1,
+        'IGNORE': [
+            r'.+\.hot-update\.js',
+            r'.+\.map']}}
+
+
 # LOGOUT_ON_PASSWORD_CHANGE = False
 #
 # # SEARCH CONFIGURATION
@@ -426,6 +428,7 @@ ALLOWED_HOSTS = get_list(os.environ.get('ALLOWED_HOSTS', 'localhost'))
 #           os.environ.get('SEARCHBOX_URL') or os.environ.get('BONSAI_URL'))
 #
 # ENABLE_SEARCH = bool(ES_URL) or DB_SEARCH_ENABLED  # global search disabling
+ENABLE_SEARCH = False
 #
 # SEARCH_BACKEND = 'saleor.search.backends.postgresql'
 #

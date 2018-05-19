@@ -26,7 +26,7 @@ from django.views.i18n import JavaScriptCatalog, set_language
 # from .cart.urls import urlpatterns as cart_urls
 # from .checkout.urls import urlpatterns as checkout_urls
 # from .core.sitemaps import sitemaps
-# from .core.urls import urlpatterns as core_urls
+from .core.urls import urlpatterns as core_urls
 # from .dashboard.urls import urlpatterns as dashboard_urls
 # from .data_feeds.urls import urlpatterns as feed_urls
 # from .graphql.api import schema
@@ -49,17 +49,17 @@ non_translatable_urlpatterns = [
     #     schema=schema, graphiql=settings.DEBUG), name='api'),
     # url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
     #     name='django.contrib.sitemaps.views.sitemap'),
-    # url(r'^i18n/$', set_language, name='set_language'),
+    url(r'^i18n/$', set_language, name='set_language'),
 
     url(r'^admin/', admin.site.urls),
 ]
 
 translatable_urlpatterns = [
-    # url(r'^', include(core_urls)),
+    url(r'^', include(core_urls)),
     # url(r'^cart/', include((cart_urls, 'cart'), namespace='cart')),
     # url(r'^checkout/',
     #     include((checkout_urls, 'checkout'), namespace='checkout')),
-    # url(r'^jsi18n/$', JavaScriptCatalog.as_view(), name='javascript-catalog'),
+    url(r'^jsi18n/$', JavaScriptCatalog.as_view(), name='javascript-catalog'),
     # url(r'^order/', include((order_urls, 'order'), namespace='order')),
     # url(r'^page/', include((page_urls, 'page'), namespace='page')),
     # url(r'^products/',
