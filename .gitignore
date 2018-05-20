@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .DS_Store
-runfile/secret.json
+runfile/secretcvm.json
 
 
 /docs/_build/

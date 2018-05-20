@@ -24,7 +24,7 @@ SITE_ID = 1
 
 PROJECT_ROOT = os.path.normpath(os.path.join(os.path.dirname(__file__), '../..'))
 
-secret_file = os.path.join(PROJECT_ROOT, 'runfile', 'secret.json')
+secret_file = os.path.join(PROJECT_ROOT, 'runfile', 'secretcvm.json')
 
 with open(secret_file, 'r') as f:
     secret = json.loads(f.read())
@@ -153,7 +153,7 @@ context_processors = [
     # 'saleor.cart.context_processors.cart_counter',
     # 'saleor.core.context_processors.navigation',
     # 'saleor.core.context_processors.search_enabled',
-    # 'saleor.site.context_processors.site',
+    'cvm.site.context_processors.site',
     # 'social_django.context_processors.backends',
     # 'social_django.context_processors.login_redirect'
 ]
@@ -180,6 +180,11 @@ TEMPLATES = [
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = get_secret('SECRET_KEY')
+import string, random
+# Get ascii Characters numbers and punctuation (minus quote characters as they could terminate string).
+chars = ''.join([string.ascii_letters, string.digits, string.punctuation]).replace('\'', '').replace('"', '').replace('\\', '')
+SECRET_KEY = ''.join([random.SystemRandom().choice(chars) for i in range(50)])
+print(SECRET_KEY)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -231,7 +236,7 @@ INSTALLED_APPS = [
     # 'saleor.seo',
     # 'saleor.shipping',
     # 'saleor.search',
-    # 'saleor.site',
+    'cvm.site',
     # 'saleor.data_feeds',
     # 'saleor.page',
     #
