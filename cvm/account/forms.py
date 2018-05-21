@@ -68,8 +68,9 @@ class LoginForm(django_forms.AuthenticationForm):
 
 
 class SignupForm(forms.ModelForm):
-    password = forms.CharField(
-        widget=forms.PasswordInput)
+    password1 = forms.CharField(label='Password', widget=forms.PasswordInput)
+    password2 = forms.CharField(label='Password Confirmation', widget=forms.PasswordInput)
+
     email = forms.EmailField(
         error_messages={
             'unique': pgettext_lazy(
@@ -80,10 +81,9 @@ class SignupForm(forms.ModelForm):
         model = User
         fields = ('email',)
         labels = {
-            'email': pgettext_lazy(
-                'Email', 'Email'),
-            'password': pgettext_lazy(
-                'Password', 'Password')}
+            'email': pgettext_lazy('Email', 'Email'),
+            'password1': pgettext_lazy('Password', 'Password'),
+            'password2': pgettext_lazy('Password Confirmation', 'Password Confirmation')}
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -91,9 +91,17 @@ class SignupForm(forms.ModelForm):
             self.fields[self._meta.model.USERNAME_FIELD].widget.attrs.update(
                 {'autofocus': ''})
 
+    def clean_password2(self):
+        # Check that the two password entries match
+        password1 = self.cleaned_data.get("password1")
+        password2 = self.cleaned_data.get("password2")
+        if password1 and password2 and password1 != password2:
+            raise forms.ValidationError("Passwords don't match")
+        return password2
+
     def save(self, request=None, commit=True):
         user = super().save(commit=False)
-        password = self.cleaned_data['password']
+        password = self.cleaned_data['password1']
         user.set_password(password)
         if commit:
             user.save()
