@@ -22,7 +22,7 @@ from django.contrib.staticfiles.views import serve
 from django.views.i18n import JavaScriptCatalog, set_language
 # from graphene_django.views import GraphQLView
 
-# from .account.urls import urlpatterns as account_urls
+from .account.urls import urlpatterns as account_urls
 # from .cart.urls import urlpatterns as cart_urls
 # from .checkout.urls import urlpatterns as checkout_urls
 # from .core.sitemaps import sitemaps
@@ -64,8 +64,7 @@ translatable_urlpatterns = [
     # url(r'^page/', include((page_urls, 'page'), namespace='page')),
     # url(r'^products/',
     #     include((product_urls, 'product'), namespace='product')),
-    # url(r'^account/',
-    #     include((account_urls, 'account'), namespace='account')),
+    url(r'^account/', include((account_urls, 'account'), namespace='account')),
     # url(r'^feeds/',
     #     include((feed_urls, 'data_feeds'), namespace='data_feeds')),
     # url(r'^search/', include((search_urls, 'search'), namespace='search')),

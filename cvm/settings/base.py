@@ -96,30 +96,30 @@ USE_L10N = True
 USE_TZ = True
 
 # FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'
-#
-# EMAIL_URL = os.environ.get('EMAIL_URL')
-# SENDGRID_USERNAME = os.environ.get('SENDGRID_USERNAME')
-# SENDGRID_PASSWORD = os.environ.get('SENDGRID_PASSWORD')
-# if not EMAIL_URL and SENDGRID_USERNAME and SENDGRID_PASSWORD:
-#     EMAIL_URL = 'smtp://%s:%s@smtp.sendgrid.net:587/?tls=True' % (
-#         SENDGRID_USERNAME, SENDGRID_PASSWORD)
-# email_config = dj_email_url.parse(EMAIL_URL or 'console://')
-#
-# EMAIL_FILE_PATH = email_config['EMAIL_FILE_PATH']
-# EMAIL_HOST_USER = email_config['EMAIL_HOST_USER']
-# EMAIL_HOST_PASSWORD = email_config['EMAIL_HOST_PASSWORD']
-# EMAIL_HOST = email_config['EMAIL_HOST']
-# EMAIL_PORT = email_config['EMAIL_PORT']
+
+EMAIL_URL = os.environ.get('EMAIL_URL')
+SENDGRID_USERNAME = os.environ.get('SENDGRID_USERNAME')
+SENDGRID_PASSWORD = os.environ.get('SENDGRID_PASSWORD')
+if not EMAIL_URL and SENDGRID_USERNAME and SENDGRID_PASSWORD:
+    EMAIL_URL = 'smtp://%s:%s@smtp.sendgrid.net:587/?tls=True' % (
+        SENDGRID_USERNAME, SENDGRID_PASSWORD)
+email_config = dj_email_url.parse(EMAIL_URL or 'console://')
+
+EMAIL_FILE_PATH = '/tmp/app-messages'
+EMAIL_HOST_USER = get_secret('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = get_secret('EMAIL_HOST_PASSWORD')
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
 # EMAIL_BACKEND = email_config['EMAIL_BACKEND']
-# EMAIL_USE_TLS = email_config['EMAIL_USE_TLS']
-# EMAIL_USE_SSL = email_config['EMAIL_USE_SSL']
-#
-# ENABLE_SSL = ast.literal_eval(
-#     os.environ.get('ENABLE_SSL', 'False'))
-#
-# if ENABLE_SSL:
-#     SECURE_SSL_REDIRECT = not DEBUG
-#
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+ENABLE_SSL = ast.literal_eval(
+    os.environ.get('ENABLE_SSL', 'False'))
+
+if ENABLE_SSL:
+    SECURE_SSL_REDIRECT = not DEBUG
+
 # DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
 # ORDER_FROM_EMAIL = os.getenv('ORDER_FROM_EMAIL', DEFAULT_FROM_EMAIL)
 
@@ -154,8 +154,8 @@ context_processors = [
     # 'saleor.core.context_processors.navigation',
     # 'saleor.core.context_processors.search_enabled',
     'cvm.site.context_processors.site',
-    # 'social_django.context_processors.backends',
-    # 'social_django.context_processors.login_redirect'
+    'social_django.context_processors.backends',
+    'social_django.context_processors.login_redirect'
 ]
 
 loaders = [
@@ -223,7 +223,7 @@ INSTALLED_APPS = [
     # 'django.contrib.postgres',
 
     # # Local apps
-    # 'saleor.account',
+    'cvm.account',
     # 'saleor.discount',
     # 'saleor.product',
     # 'saleor.cart',
@@ -241,21 +241,21 @@ INSTALLED_APPS = [
     # 'saleor.page',
     #
     # # External apps
-    # 'versatileimagefield',
+    'versatileimagefield',
     'django_babel',
     'bootstrap4',
     # 'django_prices',
-    # 'django_prices_openexchangerates',
+    'django_prices_openexchangerates',
     # 'graphene_django',
     # 'mptt',
     # 'payments',
     'webpack_loader',
-    # 'social_django',
-    # 'django_countries',
+    'social_django',
+    'django_countries',
     # 'django_filters',
-    # 'django_celery_results',
+    'django_celery_results',
     # 'impersonate',
-    # 'phonenumber_field'
+    'phonenumber_field'
 ]
 
 # if DEBUG:
@@ -271,60 +271,60 @@ INSTALLED_APPS = [
 # if ENABLE_SILK:
 #     MIDDLEWARE.insert(0, 'silk.middleware.SilkyMiddleware')
 #     INSTALLED_APPS.append('silk')
-#
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'root': {
-#         'level': 'INFO',
-#         'handlers': ['console']},
-#     'formatters': {
-#         'verbose': {
-#             'format': (
-#                 '%(levelname)s %(name)s %(message)s'
-#                 ' [PID:%(process)d:%(threadName)s]')},
-#         'simple': {
-#             'format': '%(levelname)s %(message)s'}},
-#     'filters': {
-#         'require_debug_false': {
-#             '()': 'django.utils.log.RequireDebugFalse'}},
-#     'handlers': {
-#         'mail_admins': {
-#             'level': 'ERROR',
-#             'filters': ['require_debug_false'],
-#             'class': 'django.utils.log.AdminEmailHandler'},
-#         'console': {
-#             'level': 'DEBUG',
-#             'class': 'logging.StreamHandler',
-#             'formatter': 'verbose'}},
-#     'loggers': {
-#         'django': {
-#             'handlers': ['console', 'mail_admins'],
-#             'level': 'INFO',
-#             'propagate': True},
-#         'django.server': {
-#             'handlers': ['console'],
-#             'level': 'INFO',
-#             'propagate': True},
-#         'saleor': {
-#             'handlers': ['console'],
-#             'level': 'DEBUG',
-#             'propagate': True}}}
-#
-# AUTH_USER_MODEL = 'account.User'
-#
-# LOGIN_URL = '/account/login/'
-#
-# DEFAULT_COUNTRY = 'US'
-# DEFAULT_CURRENCY = 'USD'
-# AVAILABLE_CURRENCIES = [DEFAULT_CURRENCY]
-#
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'root': {
+        'level': 'INFO',
+        'handlers': ['console']},
+    'formatters': {
+        'verbose': {
+            'format': (
+                '%(levelname)s %(name)s %(message)s'
+                ' [PID:%(process)d:%(threadName)s]')},
+        'simple': {
+            'format': '%(levelname)s %(message)s'}},
+    'filters': {
+        'require_debug_false': {
+            '()': 'django.utils.log.RequireDebugFalse'}},
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'filters': ['require_debug_false'],
+            'class': 'django.utils.log.AdminEmailHandler'},
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose'}},
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'mail_admins'],
+            'level': 'INFO',
+            'propagate': True},
+        'django.server': {
+            'handlers': ['console'],
+            'level': 'INFO',
+            'propagate': True},
+        'saleor': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True}}}
+
+AUTH_USER_MODEL = 'account.User'
+
+LOGIN_URL = '/account/login/'
+
+DEFAULT_COUNTRY = 'US'
+DEFAULT_CURRENCY = 'USD'
+AVAILABLE_CURRENCIES = [DEFAULT_CURRENCY]
+
 # OPENEXCHANGERATES_API_KEY = os.environ.get('OPENEXCHANGERATES_API_KEY')
-#
-# ACCOUNT_ACTIVATION_DAYS = 3
-#
-# LOGIN_REDIRECT_URL = 'home'
-#
+
+ACCOUNT_ACTIVATION_DAYS = 3
+
+LOGIN_REDIRECT_URL = 'home'
+
 # GOOGLE_ANALYTICS_TRACKING_ID = os.environ.get('GOOGLE_ANALYTICS_TRACKING_ID')
 #
 #
@@ -471,12 +471,12 @@ ENABLE_SEARCH = False
 #     'fields': 'id, email'}
 #
 # # CELERY SETTINGS
-# CELERY_BROKER_URL = os.environ.get('REDIS_BROKER_URL') or ''
-# CELERY_TASK_ALWAYS_EAGER = False if CELERY_BROKER_URL else True
-# CELERY_ACCEPT_CONTENT = ['json']
-# CELERY_TASK_SERIALIZER = 'json'
-# CELERY_RESULT_SERIALIZER = 'json'
-# CELERY_RESULT_BACKEND = 'django-db'
+CELERY_BROKER_URL = os.environ.get('REDIS_BROKER_URL') or ''
+CELERY_TASK_ALWAYS_EAGER = False if CELERY_BROKER_URL else True
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_RESULT_BACKEND = 'django-db'
 #
 # # Impersonate module settings
 # IMPERSONATE = {

@@ -66,9 +66,9 @@
                                     </li>
                                 {% endif %}
                                 <li>
-                                    {#                      <a href="{% url "account:details" %}">#}
-                                    {% trans "Your account" context "Main navigation item" %}
-                                    {#                      </a>#}
+                                    <a href="{% url "account:details" %}">
+                                        {% trans "Your account" context "Main navigation item" %}
+                                    </a>
                                 </li>
                                 {% if user.is_impersonate %}
                                     <li>
@@ -78,21 +78,21 @@
                                     </li>
                                 {% else %}
                                     <li>
-                                        {#                          <a href="{% url "account:logout" %}">#}
-                                        {% trans "Log out" context "Main navigation item" %}
-                                        {#                          </a>#}
+                                        <a href="{% url "account:logout" %}">
+                                            {% trans "Log out" context "Main navigation item" %}
+                                        </a>
                                     </li>
                                 {% endif %}
                             {% else %}
                                 <li>
-                                    {#                      <a rel="nofollow" href="{% url "account:signup" %}">#}
-                                    {% trans "Register" context "Main navigation item" %}
-                                    {#                      </a>#}
+                                    <a rel="nofollow" href="{% url "account:signup" %}">
+                                        {% trans "Register" context "Main navigation item" %}
+                                    </a>
                                 </li>
                                 <li>
-                                    {#                      <a rel="nofollow" href="{% url "account:login" %}">#}
-                                    {% trans "Log in" context "Main navigation item" %}
-                                    {#                      </a>#}
+                                    <a rel="nofollow" href="{% url "account:login" %}">
+                                        {% trans "Log in" context "Main navigation item" %}
+                                    </a>
                                 </li>
                             {% endif %}
                         </ul>
@@ -200,44 +200,44 @@
                         {% if user.is_authenticated %}
                             {% if user.is_staff %}
                                 <li>
-{#                                    <a href="{% url "dashboard:index" %}" target="_blank" rel="noopener">#}
-                                        {% trans "Dashboard" context "Main navigation item" %}
-{#                                    </a>#}
+                                    {#                                    <a href="{% url "dashboard:index" %}" target="_blank" rel="noopener">#}
+                                    {% trans "Dashboard" context "Main navigation item" %}
+                                    {#                                    </a>#}
                                 </li>
                                 <li>
-{#                                    <a href="{% url "styleguide" %}" target="_blank">#}
-                                        {% trans "Style guide" context "Main navigation item" %}
-{#                                    </a>#}
+                                    {#                                    <a href="{% url "styleguide" %}" target="_blank">#}
+                                    {% trans "Style guide" context "Main navigation item" %}
+                                    {#                                    </a>#}
                                 </li>
                             {% endif %}
                             <li>
-{#                                <a href="{% url "account:details" %}">#}
+                                <a href="{% url "account:details" %}">
                                     {% trans "Your account" context "Main navigation item" %}
-{#                                </a>#}
+                                </a>
                             </li>
                             {% if user.is_impersonate %}
                                 <li>
-{#                                    <a href="{% url "impersonate-stop" %}">#}
-                                        {% trans 'Stop impersonating' context 'Main navigation item' %}
-{#                                    </a>#}
+                                    {#                                    <a href="{% url "impersonate-stop" %}">#}
+                                    {% trans 'Stop impersonating' context 'Main navigation item' %}
+                                    {#                                    </a>#}
                                 </li>
                             {% else %}
                                 <li>
-{#                                    <a href="{% url "account:logout" %}">#}
+                                    <a href="{% url "account:logout" %}">
                                         {% trans "Log out" context "Main navigation item" %}
-{#                                    </a>#}
+                                    </a>
                                 </li>
                             {% endif %}
                         {% else %}
                             <li>
-{#                                <a rel="nofollow" href="{% url "account:signup" %}">#}
+                                <a rel="nofollow" href="{% url "account:signup" %}">
                                     {% trans "Register" context "Main navigation item" %}
-{#                                </a>#}
+                                </a>
                             </li>
                             <li>
-{#                                <a rel="nofollow" href="{% url "account:login" %}">#}
+                                <a rel="nofollow" href="{% url "account:login" %}">
                                     {% trans "Log in" context "Main navigation item" %}
-{#                                </a>#}
+                                </a>
                             </li>
                         {% endif %}
                     </ul>
