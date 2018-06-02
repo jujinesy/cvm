@@ -69,25 +69,26 @@ class Address(models.Model):
 class UserManager(BaseUserManager):
 
     def create_user(
-            self, email, password=None, is_staff=False, is_active=True,
+            self, email, nickname, password=None, is_staff=False, is_active=True,
             **extra_fields):
         """Create a user instance with the given email and password."""
         email = UserManager.normalize_email(email)
         user = self.model(
-            email=email, is_active=is_active, is_staff=is_staff,
+            email=email, nickname=nickname, is_active=is_active, is_staff=is_staff,
             **extra_fields)
         if password:
             user.set_password(password)
         user.save()
         return user
 
-    def create_superuser(self, email, password=None, **extra_fields):
+    def create_superuser(self, email, nickname, password=None, **extra_fields):
         return self.create_user(
-            email, password, is_staff=True, is_superuser=True, **extra_fields)
+            email, nickname, password, is_staff=True, is_superuser=True, **extra_fields)
 
 
 class User(PermissionsMixin, AbstractBaseUser):
-    email = models.EmailField(unique=True)
+    email = models.EmailField(unique=True, blank=False)
+    nickname = models.CharField(max_length=150, unique=True, blank=False)
     addresses = models.ManyToManyField(Address, blank=True)
     is_staff = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
@@ -99,7 +100,10 @@ class User(PermissionsMixin, AbstractBaseUser):
         Address, related_name='+', null=True, blank=True,
         on_delete=models.SET_NULL)
 
+    EMAIL_FIELD = 'email'
     USERNAME_FIELD = 'email'
+    NICKNAME_FIELD = 'nickname'
+    REQUIRED_FIELDS = ['nickname']
 
     objects = UserManager()
 

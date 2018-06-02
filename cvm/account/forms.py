@@ -8,7 +8,6 @@ from . import emails
 from ..account.models import User
 from .i18n import AddressMetaForm, get_address_form_class
 
-
 def get_address_form(
         data, country_code, initial=None, instance=None, **kwargs):
     country_form = AddressMetaForm(data, initial=initial)
@@ -68,20 +67,35 @@ class LoginForm(django_forms.AuthenticationForm):
 
 
 class SignupForm(forms.ModelForm):
-    password1 = forms.CharField(label='Password', widget=forms.PasswordInput)
-    password2 = forms.CharField(label='Password Confirmation', widget=forms.PasswordInput)
+    password1 = forms.CharField(
+        label='Password',
+        widget=forms.PasswordInput,
+        # strip=False,
+        # help_text=_("Enter the same password as before, for verification."),
+    )
+    password2 = forms.CharField(
+        label='Password Confirmation',
+        widget=forms.PasswordInput,
+    )
 
     email = forms.EmailField(
         error_messages={
             'unique': pgettext_lazy(
                 'Registration error',
-                'This email has already been registered.')})
+                'This Email has already been registered.')})
+
+    nickname = forms.CharField(
+        error_messages={
+            'unique': pgettext_lazy(
+                'Registration error',
+                'This Nickname has already been registered.')})
 
     class Meta:
         model = User
-        fields = ('email',)
+        fields = ('email', 'nickname', )
         labels = {
             'email': pgettext_lazy('Email', 'Email'),
+            'nickname': pgettext_lazy('Nickname', 'Nickname'),
             'password1': pgettext_lazy('Password', 'Password'),
             'password2': pgettext_lazy('Password Confirmation', 'Password Confirmation')}
 
