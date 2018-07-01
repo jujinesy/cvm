@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-02 00:40+0900\n"
+"POT-Creation-Date: 2018-07-02 01:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: july metodiev <julymetodiev@gmail.com>, 2018\n"
 "Language-Team: Bulgarian (Bulgaria) (https://www.transifex.com/mirumee/"
@@ -393,6 +393,2041 @@ msgstr "Може да редактира настройките на сайта"
 msgctxt "Permission description"
 msgid "Can view site settings"
 msgstr "Може да вижда настройките на сайта"
+
+#: machina/app.py:39
+msgid "^feeds/"
+msgstr ""
+
+#: machina/app.py:40
+msgid "^member/"
+msgstr ""
+
+#: machina/app.py:41
+#, fuzzy
+#| msgctxt "Image card text"
+#| msgid "No description"
+msgid "^moderation/"
+msgstr "Няма описание"
+
+#: machina/app.py:42
+#, fuzzy
+#| msgctxt "Dashboard search"
+#| msgid "Search"
+msgid "^search/"
+msgstr "Търсене"
+
+#: machina/app.py:43
+msgid "^tracking/"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:33
+msgid "Parent"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:35
+#: machina/templates/admin/forum/forum/change_list_table.html:9
+#: templates/dashboard/product/detail.html:98
+msgid "Name"
+msgstr "Име"
+
+#: machina/apps/forum/abstract_models.py:36
+#: machina/apps/forum_conversation/abstract_models.py:38
+msgid "Slug"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:38
+#, fuzzy
+#| msgctxt "Category field"
+#| msgid "Description"
+msgid "Description"
+msgstr "Описание"
+
+#: machina/apps/forum/abstract_models.py:42
+#, fuzzy
+#| msgid "No images"
+msgid "Forum image"
+msgstr "Няма изображения"
+
+#: machina/apps/forum/abstract_models.py:47
+msgid "Forum link"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:49
+#: machina/apps/forum/abstract_models.py:68
+msgid "Track link redirects count"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:50
+msgid "Records the number of times a forum link was clicked"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:55
+msgid "Default forum"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:56
+#, fuzzy
+#| msgctxt "Voucher: discount for"
+#| msgid "A category of products"
+msgid "Category forum"
+msgstr "Категория продукти"
+
+#: machina/apps/forum/abstract_models.py:57
+msgid "Link forum"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:60
+#, fuzzy
+#| msgctxt "Dashboard product types list"
+#| msgid "Product types"
+msgid "Forum type"
+msgstr "Типове на продукта"
+
+#: machina/apps/forum/abstract_models.py:64
+msgid "Direct number of posts"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:66
+msgid "Direct number of topics"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:75
+#: machina/apps/forum_conversation/abstract_models.py:82
+#: machina/templates/machina/forum/forum_list.html:21
+#: machina/templates/machina/forum/forum_list.html:39
+#: machina/templates/machina/forum/forum_list.html:207
+#: machina/templates/machina/forum_conversation/topic_list.html:14
+msgid "Last post"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:76
+#: machina/apps/forum_conversation/abstract_models.py:73
+msgid "Last post added on"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:81
+msgid "Display in parent-forums legend"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:82
+msgid "Displays this forum on the legend of its parent-forum (sub forums list)"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:89
+#: machina/apps/forum_permission/abstract_models.py:73
+#: machina/apps/forum_tracking/abstract_models.py:25
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:35
+msgid "Forum"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:90
+#: machina/templates/machina/forum/forum_list.html:35
+#: machina/templates/machina/forum/forum_list.html:203
+msgid "Forums"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:128
+msgid "A forum can not have a link forum as parent"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:131
+msgid "A category can not have another category as parent"
+msgstr ""
+
+#: machina/apps/forum/abstract_models.py:134
+msgid "A link forum must have a link associated with it"
+msgstr ""
+
+#: machina/apps/forum/admin.py:54
+#, fuzzy
+#| msgctxt "Dashboard site settings"
+#| msgid "Site settings"
+msgid "Forum settings"
+msgstr "Настройки"
+
+#: machina/apps/forum/admin.py:58
+#, fuzzy
+#| msgctxt "Dashboard site settings"
+#| msgid "Site settings"
+msgid "Link forum settings"
+msgstr "Настройки"
+
+#: machina/apps/forum/admin.py:146
+#, fuzzy
+#| msgctxt "Storefront message"
+#| msgid "Address successfully removed"
+msgid "'{}' forum successfully moved"
+msgstr "Адреса е успешно премахнат"
+
+#: machina/apps/forum/admin.py:160 machina/apps/forum/admin.py:234
+#: machina/apps/forum/admin.py:252 machina/apps/forum/admin.py:271
+#: machina/apps/forum_permission/abstract_models.py:46
+#: machina/templates/admin/forum/forum/change_form.html:5
+#: machina/templates/admin/forum/forum/editpermissions_form.html:20
+#: machina/templates/admin/forum/forum/editpermissions_index.html:15
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Forum permissions"
+msgstr "Разрешения"
+
+#: machina/apps/forum/admin.py:161
+#: machina/templates/admin/forum/forum/change_list.html:15
+msgid "Global forum permissions"
+msgstr ""
+
+#: machina/apps/forum/admin.py:169
+#, fuzzy
+#| msgctxt "Storefront message"
+#| msgid "Password successfully changed."
+msgid "Permissions successfully copied"
+msgstr "Паролата е успешно променена"
+
+#: machina/apps/forum/admin.py:190
+msgid "Choose either a user ID, a group ID or the anonymous user"
+msgstr ""
+
+#: machina/apps/forum/admin.py:252
+#: machina/templates/machina/forum_conversation/topic_detail.html:98
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:119
+msgid "Anonymous user"
+msgstr ""
+
+#: machina/apps/forum/admin.py:321
+#, fuzzy
+#| msgctxt "Storefront message"
+#| msgid "Password successfully changed."
+msgid "Permissions successfully applied"
+msgstr "Паролата е успешно променена"
+
+#: machina/apps/forum/admin.py:361
+msgid "Anonymous"
+msgstr ""
+
+#: machina/apps/forum/admin.py:364
+msgid ""
+"Please select this option if you want to edit the permissions of the "
+"anonymous user"
+msgstr ""
+
+#: machina/apps/forum/admin.py:382
+msgid "Choose either a user ID or select the anonymous user"
+msgstr ""
+
+#: machina/apps/forum/admin.py:410
+#: machina/templates/admin/forum/forum/editpermissions_form.html:35
+msgid "Not set"
+msgstr ""
+
+#: machina/apps/forum/admin.py:411
+#: machina/templates/admin/forum/forum/editpermissions_form.html:36
+msgid "Granted"
+msgstr ""
+
+#: machina/apps/forum/admin.py:412
+#: machina/templates/admin/forum/forum/editpermissions_form.html:37
+msgid "Not granted"
+msgstr ""
+
+#: machina/apps/forum/app.py:21
+msgid "^forum/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/$"
+msgstr ""
+
+#: machina/apps/forum/registry_config.py:12
+msgid "Machina: Forum"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:31
+msgid "Topic forum"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:34
+#: machina/apps/forum_conversation/abstract_models.py:208
+msgid "Poster"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:37
+#: machina/apps/forum_conversation/abstract_models.py:216
+msgid "Subject"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:43
+msgid "Default topic"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:44
+msgid "Sticky"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:45
+msgid "Announce"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:48
+#, fuzzy
+#| msgctxt "Dashboard product types list"
+#| msgid "Product types"
+msgid "Topic type"
+msgstr "Типове на продукта"
+
+#: machina/apps/forum_conversation/abstract_models.py:53
+msgid "Topic unlocked"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:54
+msgid "Topic locked"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:55
+msgid "Topic moved"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:58
+msgid "Topic status"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:62
+#: machina/apps/forum_conversation/abstract_models.py:228
+msgid "Approved"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:66
+#, fuzzy
+#| msgctxt "Address field"
+#| msgid "Postal code"
+msgid "Posts count"
+msgstr "Пощенски код"
+
+#: machina/apps/forum_conversation/abstract_models.py:70
+#, fuzzy
+#| msgctxt "Sale (discount) table header"
+#| msgid "Discount"
+msgid "Views count"
+msgstr "Отстъпка"
+
+#: machina/apps/forum_conversation/abstract_models.py:79
+msgid "First post"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:87
+msgid "Subscribers"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:97
+#: machina/apps/forum_conversation/abstract_models.py:205
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:24
+#: machina/apps/forum_tracking/abstract_models.py:51
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:34
+msgid "Topic"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:98
+#: machina/templates/machina/forum/forum_detail.html:50
+#: machina/templates/machina/forum/forum_list.html:19
+#: machina/templates/machina/forum/forum_list.html:37
+#: machina/templates/machina/forum/forum_list.html:205
+msgid "Topics"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:143
+msgid "A topic can not be associated with a category or a link forum"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:210
+#, fuzzy
+#| msgctxt "Checkout addresses form label"
+#| msgid "Enter a new address"
+msgid "Poster IP address"
+msgstr "Въведете нов адрес"
+
+#: machina/apps/forum_conversation/abstract_models.py:212
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:96
+msgid "Anonymous user forum key"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:220
+#, fuzzy
+#| msgctxt "Password reset primary action"
+#| msgid "Continue"
+msgid "Content"
+msgstr "Продължава"
+
+#: machina/apps/forum_conversation/abstract_models.py:224
+#, fuzzy
+#| msgctxt "Dashboard user"
+#| msgid "User %(full_name)s"
+msgid "Username"
+msgstr "Потребител %(full_name)s"
+
+#: machina/apps/forum_conversation/abstract_models.py:232
+msgid "Attach a signature"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:237
+#, fuzzy
+#| msgctxt "Dashboard update action"
+#| msgid "Update"
+msgid "Update reason"
+msgstr "Актуализация"
+
+#: machina/apps/forum_conversation/abstract_models.py:242
+msgid "Lastly updated by"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:244
+#, fuzzy
+#| msgctxt "Dashboard update action"
+#| msgid "Update"
+msgid "Updates count"
+msgstr "Актуализация"
+
+#: machina/apps/forum_conversation/abstract_models.py:254
+#: machina/apps/forum_conversation/forum_attachments/abstract_models.py:21
+msgid "Post"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:255
+#: machina/templates/machina/forum/forum_list.html:20
+#: machina/templates/machina/forum/forum_list.html:38
+#: machina/templates/machina/forum/forum_list.html:206
+msgid "Posts"
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:296
+msgid "A user id or an anonymous key must be associated with a post."
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:298
+msgid ""
+"A user id or an anonymous key must be associated with a post, but not both."
+msgstr ""
+
+#: machina/apps/forum_conversation/abstract_models.py:302
+msgid "A username must be specified if the poster is anonymous"
+msgstr ""
+
+#: machina/apps/forum_conversation/app.py:29
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/$"
+msgstr ""
+
+#: machina/apps/forum_conversation/app.py:32
+msgid "^topic/create/$"
+msgstr ""
+
+#: machina/apps/forum_conversation/app.py:33
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/update/$"
+msgstr ""
+
+#: machina/apps/forum_conversation/app.py:36
+msgid "^topic/(?P<topic_slug>[\\w-]+)-(?P<topic_pk>\\d+)/post/create/$"
+msgstr ""
+
+#: machina/apps/forum_conversation/app.py:38
+msgid ""
+"^topic/(?P<topic_slug>[\\w-]+)-(?P<topic_pk>\\d+)/(?P<pk>\\d+)/post/update/$"
+msgstr ""
+
+#: machina/apps/forum_conversation/app.py:40
+msgid ""
+"^topic/(?P<topic_slug>[\\w-]+)-(?P<topic_pk>\\d+)/(?P<pk>\\d+)/post/delete/$"
+msgstr ""
+
+#: machina/apps/forum_conversation/app.py:45
+msgid "forum/(?P<forum_slug>[\\w-]+)-(?P<forum_pk>\\d+)/"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:41
+msgid "Enter your subject"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:42
+msgid "Message"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:43
+msgid "Enter your message"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:70
+#: machina/apps/forum_moderation/forms.py:23
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:27
+#: machina/templates/machina/forum_moderation/topic_lock.html:5
+#: machina/templates/machina/forum_moderation/topic_lock.html:12
+msgid "Lock topic"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:116
+#, fuzzy
+#| msgctxt "Dashboard variant details view"
+#| msgid "Cost price range"
+msgid "Post topic as"
+msgstr "Обхват на цената на разходите"
+
+#: machina/apps/forum_conversation/forms.py:140
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:27
+msgid "Poll question"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:141
+msgid ""
+"Enter a question to associate a poll with the topic or leave blank to not "
+"create a poll."
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:145
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:35
+msgid "Maximum number of poll options per user"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:146
+msgid "This is the number of options each user may select when voting."
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:150
+msgid "For how many days the poll should be run?"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:151
+msgid "Enter 0 or leave blank for a never ending poll."
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:154
+msgid "Allow re-voting?"
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:155
+msgid "If enabled users are able to change their vote."
+msgstr ""
+
+#: machina/apps/forum_conversation/forms.py:176
+msgid ""
+"You must set the maximum number of poll options per user when creating polls"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_attachments/abstract_models.py:23
+#: templates/materializecssform/field.html:199
+#: templates/materializecssform/field.html:233
+msgid "File"
+msgstr "Файл"
+
+#: machina/apps/forum_conversation/forum_attachments/abstract_models.py:24
+msgid "Comment"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_attachments/abstract_models.py:29
+msgid "Attachment"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_attachments/abstract_models.py:30
+#: machina/templates/machina/forum_conversation/forum_attachments/attachments_detail.html:8
+#: machina/templates/machina/forum_conversation/forum_attachments/attachments_preview.html:7
+#: machina/templates/machina/forum_conversation/partials/post_form.html:22
+#: machina/templates/machina/forum_conversation/partials/post_form.html:60
+#: machina/templates/machina/forum_conversation/partials/topic_form.html:26
+#, fuzzy
+#| msgctxt "Order detail tab"
+#| msgid "Payments"
+msgid "Attachments"
+msgstr "Плащания"
+
+#: machina/apps/forum_conversation/forum_attachments/registry_config.py:12
+msgid "Machina: Forum attachments"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:31
+msgid "Poll duration, in days"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:39
+#, fuzzy
+#| msgctxt "Edit/new address primary action"
+#| msgid "Save changes"
+msgid "Allow vote changes"
+msgstr "Запази промените"
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:46
+msgid "Topic poll"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:47
+msgid "Topic polls"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:70
+#: machina/templates/machina/forum_conversation/partials/topic_form.html:23
+msgid "Poll"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:71
+msgid "Poll option text"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:76
+msgid "Topic poll option"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:77
+#, fuzzy
+#| msgctxt "Dashboard stock loactions list"
+#| msgid "Stock locations"
+msgid "Topic poll options"
+msgstr "Местоположения на запаси"
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:94
+msgid "Voter"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:100
+msgid "Poll option"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:101
+msgid "Vote's date"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:106
+msgid "Topic poll vote"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:107
+msgid "Topic poll votes"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:118
+msgid "A user id or an anonymous key must be used."
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/abstract_models.py:120
+msgid "A user id or an anonymous key must be used, but not both."
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/forms.py:30
+msgid "Enter a poll option"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/forms.py:123
+msgid "You must specify an option when voting."
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/forms.py:128
+msgid "You have tried to vote for too many options."
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/registry_config.py:12
+msgid "Machina: Forum polls"
+msgstr ""
+
+#: machina/apps/forum_conversation/forum_polls/views.py:67
+#, fuzzy
+#| msgid "User has been created"
+msgid "Your vote has been cast."
+msgstr "Потребителят е създаден"
+
+#: machina/apps/forum_conversation/registry_config.py:12
+msgid "Machina: Forum conversations"
+msgstr ""
+
+#: machina/apps/forum_conversation/views.py:128
+msgid "This message has been posted successfully."
+msgstr ""
+
+#: machina/apps/forum_conversation/views.py:129
+msgid "This message will be validated before appearing on the forum."
+msgstr ""
+
+#: machina/apps/forum_conversation/views.py:131
+msgid "There are some errors in the attachments you submitted."
+msgstr ""
+
+#: machina/apps/forum_conversation/views.py:388
+msgid "There are some errors in the poll options you submitted."
+msgstr ""
+
+#: machina/apps/forum_conversation/views.py:574
+#: machina/apps/forum_conversation/views.py:659
+msgid "This message has been edited successfully."
+msgstr ""
+
+#: machina/apps/forum_conversation/views.py:696
+msgid "This message has been deleted successfully."
+msgstr ""
+
+#: machina/apps/forum_feeds/app.py:19
+msgid "^topics/$"
+msgstr ""
+
+#: machina/apps/forum_feeds/app.py:20
+msgid "^forum/(?P<forum_slug>[\\w-]+)-(?P<forum_pk>\\d+)/topics/$"
+msgstr ""
+
+#: machina/apps/forum_feeds/app.py:22
+msgid "^forum/(?P<forum_slug>[\\w-]+)-(?P<forum_pk>\\d+)/topics/all/$"
+msgstr ""
+
+#: machina/apps/forum_feeds/feeds.py:22
+msgid "Latest topics"
+msgstr ""
+
+#: machina/apps/forum_feeds/feeds.py:23
+msgid "Latest topics updated on the forums"
+msgstr ""
+
+#: machina/apps/forum_feeds/registry_config.py:12
+msgid "Machina: Forum feeds"
+msgstr ""
+
+#: machina/apps/forum_member/abstract_models.py:23
+#: machina/apps/forum_permission/abstract_models.py:92
+#: machina/apps/forum_tracking/abstract_models.py:23
+#: machina/apps/forum_tracking/abstract_models.py:48
+#, fuzzy
+#| msgctxt "Search results list users"
+#| msgid "Users"
+msgid "User"
+msgstr "Потребители"
+
+#: machina/apps/forum_member/abstract_models.py:27
+msgid "Avatar"
+msgstr ""
+
+#: machina/apps/forum_member/abstract_models.py:33
+#, fuzzy
+#| msgctxt "Order summary card action"
+#| msgid "Capture"
+msgid "Signature"
+msgstr "Улавяне"
+
+#: machina/apps/forum_member/abstract_models.py:38
+#, fuzzy
+#| msgctxt "Order subtotal"
+#| msgid "Total"
+msgid "Total posts"
+msgstr "Тотал"
+
+#: machina/apps/forum_member/abstract_models.py:43
+#, fuzzy
+#| msgctxt "Edit/new address breadcrumb"
+#| msgid "Your profile"
+msgid "Forum profile"
+msgstr "Твоят профил"
+
+#: machina/apps/forum_member/abstract_models.py:44
+#, fuzzy
+#| msgctxt "Edit/new address breadcrumb"
+#| msgid "Your profile"
+msgid "Forum profiles"
+msgstr "Твоят профил"
+
+#: machina/apps/forum_member/app.py:25
+msgid "^profile/(?P<pk>\\d+)/$"
+msgstr ""
+
+#: machina/apps/forum_member/app.py:27
+msgid "^profile/(?P<pk>\\d+)/posts/$"
+msgstr ""
+
+#: machina/apps/forum_member/app.py:29
+msgid "^profile/edit/$"
+msgstr ""
+
+#: machina/apps/forum_member/app.py:32
+#, fuzzy
+#| msgctxt "Category field"
+#| msgid "Description"
+msgid "^subscriptions/$"
+msgstr "Описание"
+
+#: machina/apps/forum_member/app.py:35
+msgid "^topic/(?P<pk>\\d+)/subscribe/$"
+msgstr ""
+
+#: machina/apps/forum_member/app.py:37
+msgid "^topic/(?P<pk>\\d+)/unsubscribe/$"
+msgstr ""
+
+#: machina/apps/forum_member/registry_config.py:12
+msgid "Machina: Forum members"
+msgstr ""
+
+#: machina/apps/forum_member/views.py:106
+msgid "The profile has been edited successfully."
+msgstr ""
+
+#: machina/apps/forum_member/views.py:131
+msgid "You subscribed to this topic successfully."
+msgstr ""
+
+#: machina/apps/forum_member/views.py:170
+msgid "You unsubscribed from this topic successfully."
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:31
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/lock/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:33
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/unlock/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:35
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/delete/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:37
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/move/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:39
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/change/topic/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:41
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/change/sticky/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:43
+msgid "^topic/(?P<slug>[\\w-]+)-(?P<pk>\\d+)/change/announce/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:45
+msgid "^queue/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:46
+msgid "^queue/(?P<pk>\\d+)/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:48
+msgid "^queue/(?P<pk>\\d+)/approve/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/app.py:50
+msgid "^queue/(?P<pk>\\d+)/disapprove/$"
+msgstr ""
+
+#: machina/apps/forum_moderation/forms.py:20
+msgid "Select a destination forum"
+msgstr ""
+
+#: machina/apps/forum_moderation/registry_config.py:12
+msgid "Machina: Forum moderation"
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:39
+msgid "This topic has been locked successfully."
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:89
+msgid "This topic has been unlocked successfully."
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:139
+msgid "This topic has been deleted successfully."
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:190
+msgid "This topic has been moved successfully."
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:263
+msgid "This topic type has been changed successfully."
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:310
+msgid "Would you want to change this topic to a default topic?"
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:320
+msgid "Would you want to change this topic to a sticky topic?"
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:330
+msgid "Would you want to change this topic to an announce?"
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:403
+msgid "This post has been approved successfully."
+msgstr ""
+
+#: machina/apps/forum_moderation/views.py:444
+msgid "This post has been disapproved successfully."
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:31
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Permission codename"
+msgstr "Разрешения"
+
+#: machina/apps/forum_permission/abstract_models.py:34
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Global permission"
+msgstr "Разрешения"
+
+#: machina/apps/forum_permission/abstract_models.py:35
+msgid "This permission can be granted globally to all the forums"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:38
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Local permission"
+msgstr "Разрешения"
+
+#: machina/apps/forum_permission/abstract_models.py:39
+msgid "This permission can be granted individually for each forum"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:45
+#: machina/apps/forum_permission/abstract_models.py:67
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Forum permission"
+msgstr "Разрешения"
+
+#: machina/apps/forum_permission/abstract_models.py:54
+msgid "A forum permission should be at least either global or local"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:68
+msgid "Has perm"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:82
+msgid "The following permission cannot be granted globally: {}"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:94
+msgid "Target anonymous user"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:100
+msgid "User forum permission"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:101
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "User forum permissions"
+msgstr "Разрешения"
+
+#: machina/apps/forum_permission/abstract_models.py:113
+msgid "A permission should target either a user or an anonymous user"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:120
+#, fuzzy
+#| msgctxt "Dashboard group"
+#| msgid "Group"
+msgid "Group"
+msgstr "Група"
+
+#: machina/apps/forum_permission/abstract_models.py:126
+msgid "Group forum permission"
+msgstr ""
+
+#: machina/apps/forum_permission/abstract_models.py:127
+msgid "Group forum permissions"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:23
+msgid "Can see forum"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:28
+#, fuzzy
+#| msgctxt "Permission description"
+#| msgid "Can edit groups"
+msgid "Can read forum"
+msgstr "Може да редактира групите"
+
+#: machina/apps/forum_permission/defaults.py:35
+msgid "Can start new topics"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:40
+msgid "Can reply to topics"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:45
+msgid "Can post announcements"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:50
+msgid "Can post stickies"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:55
+msgid "Can delete own posts"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:60
+#, fuzzy
+#| msgctxt "Permission description"
+#| msgid "Can edit products"
+msgid "Can edit own posts"
+msgstr "Може да редактира продукти"
+
+#: machina/apps/forum_permission/defaults.py:66
+msgid "Can post without approval"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:73
+#, fuzzy
+#| msgctxt "Permission description"
+#| msgid "Can edit products"
+msgid "Can create polls"
+msgstr "Може да редактира продукти"
+
+#: machina/apps/forum_permission/defaults.py:78
+msgid "Can vote in polls"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:85
+msgid "Can attach file"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:90
+msgid "Can download file"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:97
+msgid "Can lock topics"
+msgstr ""
+
+#: machina/apps/forum_permission/defaults.py:102
+#, fuzzy
+#| msgctxt "Permission description"
+#| msgid "Can view groups"
+msgid "Can move topics"
+msgstr "Може да вижда групите"
+
+#: machina/apps/forum_permission/defaults.py:107
+#, fuzzy
+#| msgctxt "Permission description"
+#| msgid "Can edit products"
+msgid "Can edit posts"
+msgstr "Може да редактира продукти"
+
+#: machina/apps/forum_permission/defaults.py:112
+#, fuzzy
+#| msgctxt "Permission description"
+#| msgid "Can edit products"
+msgid "Can delete posts"
+msgstr "Може да редактира продукти"
+
+#: machina/apps/forum_permission/defaults.py:117
+#, fuzzy
+#| msgctxt "Permission description"
+#| msgid "Can view products"
+msgid "Can approve posts"
+msgstr "Може да вижда продукти"
+
+#: machina/apps/forum_permission/defaults.py:123
+msgid "Can add posts in locked topics"
+msgstr ""
+
+#: machina/apps/forum_permission/registry_config.py:12
+msgid "Machina: Forum permissions"
+msgstr ""
+
+#: machina/apps/forum_search/forms.py:21
+msgid "Search only in topic subjects"
+msgstr ""
+
+#: machina/apps/forum_search/forms.py:24
+#, fuzzy
+#| msgid "Search for product"
+msgid "Search for poster"
+msgstr "Търсене за продукт"
+
+#: machina/apps/forum_search/forms.py:25
+msgid "Enter a user name to limit the search to a specific user."
+msgstr ""
+
+#: machina/apps/forum_search/forms.py:29
+msgid "Search in specific forums"
+msgstr ""
+
+#: machina/apps/forum_search/forms.py:30
+msgid "Select the forums you wish to search in."
+msgstr ""
+
+#: machina/apps/forum_search/forms.py:39
+#, fuzzy
+#| msgid "Search for product"
+msgid "Search for keywords"
+msgstr "Търсене за продукт"
+
+#: machina/apps/forum_search/forms.py:40
+#, fuzzy
+#| msgctxt "Product status"
+#| msgid "ready for purchase"
+msgid "Keywords or phrase"
+msgstr "готово за поръчка"
+
+#: machina/apps/forum_search/forms.py:41
+#, fuzzy
+#| msgctxt "Low stock product list"
+#| msgid "Product name"
+msgid "Poster name"
+msgstr "Име на продукта"
+
+#: machina/apps/forum_search/registry_config.py:12
+msgid "Machina: Forum searches"
+msgstr ""
+
+#: machina/apps/forum_tracking/abstract_models.py:34
+msgid "Forum track"
+msgstr ""
+
+#: machina/apps/forum_tracking/abstract_models.py:35
+msgid "Forum tracks"
+msgstr ""
+
+#: machina/apps/forum_tracking/abstract_models.py:58
+msgid "Topic track"
+msgstr ""
+
+#: machina/apps/forum_tracking/abstract_models.py:59
+msgid "Topic tracks"
+msgstr ""
+
+#: machina/apps/forum_tracking/app.py:21
+msgid "^mark/forums/$"
+msgstr ""
+
+#: machina/apps/forum_tracking/app.py:23
+msgid "^mark/forums/(?P<pk>\\d+)/$"
+msgstr ""
+
+#: machina/apps/forum_tracking/app.py:25
+msgid "^mark/forum/(?P<pk>\\d+)/topics/$"
+msgstr ""
+
+#: machina/apps/forum_tracking/app.py:27
+msgid "^unread-topics/$"
+msgstr ""
+
+#: machina/apps/forum_tracking/registry_config.py:12
+#, fuzzy
+#| msgctxt "Fulfillment table text"
+#| msgid "Tracking number: %(tracking)s"
+msgid "Machina: Forum tracking"
+msgstr "Проследяващ номер: %(tracking)s"
+
+#: machina/apps/forum_tracking/views.py:37
+msgid "Forums have been marked read."
+msgstr ""
+
+#: machina/apps/forum_tracking/views.py:87
+msgid "Topics have been marked read."
+msgstr ""
+
+#: machina/core/compat.py:20
+msgid "Neither Pillow nor PIL could be imported: {}"
+msgstr ""
+
+#: machina/models/abstract_models.py:14
+#, fuzzy
+#| msgctxt "Modal cancel order title"
+#| msgid "Cancel order"
+msgid "Creation date"
+msgstr "Анулиране на поръчката"
+
+#: machina/models/abstract_models.py:15
+#, fuzzy
+#| msgctxt "Dashboard update action"
+#| msgid "Update"
+msgid "Update date"
+msgstr "Актуализация"
+
+#: machina/models/fields.py:37
+msgid "Could not import MACHINA_MARKUP_WIDGET {}: {}"
+msgstr ""
+
+#: machina/models/fields.py:59
+msgid "Could not import MACHINA_MARKUP_LANGUAGE {}: {}"
+msgstr ""
+
+#: machina/models/fields.py:63
+msgid "MACHINA_MARKUP_LANGUAGE setting is required"
+msgstr ""
+
+#: machina/models/fields.py:221
+msgid "Files of size greater than {} are not allowed. Your file is {}"
+msgstr ""
+
+#: machina/models/fields.py:232
+msgid ""
+"Images of width lesser than {}px or greater than {}px or are not allowed. "
+"The width of your image is {}px"
+msgstr ""
+
+#: machina/models/fields.py:238
+msgid ""
+"Images of height lesser than {}px or greater than {}px or are not allowed. "
+"The height of your image is {}px"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list.html:7
+msgid "List of forums"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list_table.html:10
+#, fuzzy
+#| msgctxt "Dashboard stock loactions list"
+#| msgid "Stock locations"
+msgid "Quick actions"
+msgstr "Местоположения на запаси"
+
+#: machina/templates/admin/forum/forum/change_list_table.html:11
+msgid "Type"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list_table.html:12
+#, fuzzy
+#| msgctxt "Recent orders link text"
+#| msgid "Details"
+msgid "Details"
+msgstr "Детайли"
+
+#: machina/templates/admin/forum/forum/change_list_table.html:28
+#, fuzzy
+#| msgctxt "Group form action"
+#| msgid "Remove group"
+msgid "Move up"
+msgstr "Премахване на група"
+
+#: machina/templates/admin/forum/forum/change_list_table.html:33
+msgid "Move down"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list_table.html:37
+msgid "Add a sub-forum"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list_table.html:38
+#: machina/templates/machina/forum_conversation/topic_detail.html:37
+msgid "Delete"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list_table.html:47
+msgid "Topics:"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list_table.html:47
+#: machina/templates/machina/forum_conversation/topic_detail.html:95
+#: machina/templates/machina/forum_member/user_posts_list.html:67
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:116
+msgid "Posts:"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/change_list_table.html:49
+msgid "Link:"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/editpermissions_anonymous_user.html:4
+#: machina/templates/admin/forum/forum/editpermissions_index.html:30
+#: machina/templates/admin/forum/forum/editpermissions_user.html:4
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Edit user permissions"
+msgstr "Разрешения"
+
+#: machina/templates/admin/forum/forum/editpermissions_form.html:16
+#: machina/templates/admin/forum/forum/editpermissions_index.html:11
+#, fuzzy
+#| msgctxt "Main navigation item"
+#| msgid "Home"
+msgid "Home"
+msgstr "Начало"
+
+#: machina/templates/admin/forum/forum/editpermissions_form.html:34
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Permission"
+msgstr "Разрешения"
+
+#: machina/templates/admin/forum/forum/editpermissions_form.html:63
+#: templates/dashboard/page/form.html:83
+msgid "Save"
+msgstr "Запазва"
+
+#: machina/templates/admin/forum/forum/editpermissions_group.html:4
+#: machina/templates/admin/forum/forum/editpermissions_index.html:57
+#, fuzzy
+#| msgctxt "Dashboard groups list table header permissions"
+#| msgid "Permissions"
+msgid "Edit group permissions"
+msgstr "Разрешения"
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:25
+msgid "Please correct the error below."
+msgstr ""
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:25
+msgid "Please correct the errors below."
+msgstr ""
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:31
+#, fuzzy
+#| msgctxt "Voucher not applicable"
+#| msgid "Please select a shipping method first."
+msgid "Please select a user in order to update its permissions"
+msgstr "Моля, изберете метод за доставка."
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:51
+#: machina/templates/admin/forum/forum/editpermissions_index.html:78
+#, fuzzy
+#| msgctxt "Dashboard action"
+#| msgid "Select images"
+msgid "Select"
+msgstr "Избира изображения"
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:58
+msgid "Please select a group in order to update its permissions"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:85
+msgid "Copy permissions from another forum"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:86
+msgid ""
+"Please select a forum in order to copy its permissions configuration to the "
+"current forum"
+msgstr ""
+
+#: machina/templates/admin/forum/forum/editpermissions_index.html:106
+msgid "Copy"
+msgstr ""
+
+#: machina/templates/machina/board_base.html:34
+#, fuzzy
+#| msgctxt "Dashboard search"
+#| msgid "Search"
+msgid "Search..."
+msgstr "Търсене"
+
+#: machina/templates/machina/board_base.html:41
+msgid "Advanced search"
+msgstr ""
+
+#: machina/templates/machina/board_base.html:56
+#, fuzzy
+#| msgctxt "Category field"
+#| msgid "Description"
+msgid "Subscriptions"
+msgstr "Описание"
+
+#: machina/templates/machina/board_base.html:57
+msgid "View my messages"
+msgstr ""
+
+#: machina/templates/machina/board_base.html:61
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:4
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:9
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:4
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:9
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:32
+msgid "Moderation queue"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_detail.html:22
+msgid "Mark subforums read"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_detail.html:34
+#: machina/templates/machina/forum/forum_detail.html:57
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:18
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:66
+msgid "New topic"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_detail.html:42
+#: machina/templates/machina/forum/forum_detail.html:65
+#: machina/templates/machina/forum_tracking/mark_topics_read.html:5
+#: machina/templates/machina/forum_tracking/mark_topics_read.html:11
+msgid "Mark topics read"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_detail.html:46
+msgid "Announcements"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_list.html:69
+#: machina/templates/machina/forum/forum_list.html:142
+msgid "RSS feed"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_list.html:76
+#: machina/templates/machina/forum/forum_list.html:149
+#: machina/templates/machina/forum_conversation/topic_list.html:53
+#, fuzzy, python-format
+#| msgctxt "Checkout title"
+#| msgid "Thank you for your <a href=\"%(order_url)s\">order</a>!"
+msgid "By: <a href=\"%(poster_url)s\">%(username)s</a>"
+msgstr "Благодарим Ви за <a href=\"%(order_url)s\"> поръчката </a>!"
+
+#: machina/templates/machina/forum/forum_list.html:80
+#: machina/templates/machina/forum/forum_list.html:153
+#: machina/templates/machina/forum_conversation/topic_list.html:57
+#, python-format
+msgid "By: %(poster_username)s"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_list.html:88
+#: machina/templates/machina/forum/forum_list.html:161
+msgid "No posts"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_list.html:107
+#: machina/templates/machina/forum/forum_list.html:180
+msgid "Total redirects:"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_list.html:187
+#: machina/templates/machina/forum/forum_list.html:193
+msgid "Subforums:"
+msgstr ""
+
+#: machina/templates/machina/forum/forum_list.html:212
+msgid "No forums."
+msgstr ""
+
+#: machina/templates/machina/forum/index.html:6
+msgid "Index"
+msgstr ""
+
+#: machina/templates/machina/forum/index.html:14
+#: machina/templates/machina/forum_tracking/mark_forums_read.html:5
+#: machina/templates/machina/forum_tracking/mark_forums_read.html:11
+#, fuzzy
+#| msgctxt "Order status history entry"
+#| msgid "Order was placed"
+msgid "Mark forums read"
+msgstr "Поръчката е направена"
+
+#: machina/templates/machina/forum/index.html:16
+#: machina/templates/machina/forum_tracking/unread_topic_list.html:4
+#: machina/templates/machina/forum_tracking/unread_topic_list.html:10
+msgid "View unread topics"
+msgstr ""
+
+#: machina/templates/machina/forum/index.html:23
+#: machina/templates/machina/forum_member/forum_profile_detail.html:34
+#, fuzzy
+#| msgid "Status"
+msgid "Statistics"
+msgstr "Статус"
+
+#: machina/templates/machina/forum/index.html:24
+msgid "Total posts:"
+msgstr ""
+
+#: machina/templates/machina/forum/index.html:24
+msgid "Total topics:"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_attachments/attachment_formset.html:28
+#: machina/templates/machina/forum_member/forum_profile_update.html:20
+#: machina/templates/machina/partials/form_field.html:6
+#, fuzzy
+#| msgctxt "Dashboard form labels"
+#| msgid "(optional)"
+msgid "(optional)"
+msgstr "(По желание)"
+
+#: machina/templates/machina/forum_conversation/forum_attachments/attachment_formset.html:41
+#, fuzzy
+#| msgctxt "Order notes card action"
+#| msgid "Add note"
+msgid "Add another file"
+msgstr "Добавя бележка"
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_detail.html:17
+#: machina/templates/machina/forum_conversation/forum_polls/poll_preview.html:13
+msgid "You may select <b>1</b> option"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_detail.html:21
+#: machina/templates/machina/forum_conversation/forum_polls/poll_preview.html:17
+#, python-format
+msgid "You may select up to <b>%(max_options)s</b> options"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_detail.html:40
+msgid "Vote"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_detail.html:44
+msgid "Change your vote"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_option_formset.html:3
+msgid "Poll options"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_option_formset.html:26
+#, fuzzy
+#| msgctxt "Stock location list add button text"
+#| msgid "Add stock location"
+msgid "Add a poll option"
+msgstr "Добавя стока към локацията"
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_option_formset.html:30
+msgid ""
+"<b>Note:</b>&nbsp;Deleting poll options of an existing poll will delete the "
+"associated votes."
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_preview.html:9
+#: machina/templates/machina/forum_conversation/post_preview.html:10
+msgid "Preview:"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_results.html:19
+#, fuzzy
+#| msgctxt "Address field"
+#| msgid "Postal code"
+msgid "Total votes:"
+msgstr "Пощенски код"
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_vote_form.html:35
+#: machina/templates/machina/forum_conversation/partials/topic_form.html:102
+#: machina/templates/machina/forum_conversation/post_create.html:27
+#: machina/templates/machina/forum_conversation/post_update.html:27
+#: machina/templates/machina/forum_member/forum_profile_update.html:36
+msgid "Submit"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/forum_polls/poll_vote_form.html:36
+#, fuzzy
+#| msgctxt "Search page title"
+#| msgid "Search results"
+msgid "View results"
+msgstr "Резултати от търсенето"
+
+#: machina/templates/machina/forum_conversation/partials/post_form.html:20
+#: machina/templates/machina/forum_conversation/partials/topic_form.html:21
+msgid "Options"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:16
+msgid "Post reply"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:19
+msgid "Subscribe"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:21
+msgid "Unsubscribe"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:28
+#: machina/templates/machina/forum_moderation/topic_unlock.html:5
+#: machina/templates/machina/forum_moderation/topic_unlock.html:12
+msgid "Unlock topic"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:29
+#: machina/templates/machina/forum_moderation/topic_delete.html:5
+#: machina/templates/machina/forum_moderation/topic_delete.html:12
+msgid "Delete topic"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:30
+#: machina/templates/machina/forum_moderation/topic_move.html:5
+#: machina/templates/machina/forum_moderation/topic_move.html:12
+#, fuzzy
+#| msgctxt "Dashboard action"
+#| msgid "Remove stock"
+msgid "Move topic"
+msgstr "Изтрива стока"
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:32
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:39
+#, fuzzy
+#| msgctxt "Order table row action"
+#| msgid "Change stock location"
+msgid "Change to sticky topic"
+msgstr "Променете местоположението на стоката"
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:33
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:36
+#, fuzzy
+#| msgctxt "Order table row action"
+#| msgid "Change stock location"
+msgid "Change to announce"
+msgstr "Променете местоположението на стоката"
+
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:35
+#: machina/templates/machina/forum_conversation/partials/topic_detail_actions.html:38
+#, fuzzy
+#| msgctxt "Order table row action"
+#| msgid "Change stock"
+msgid "Change to standard topic"
+msgstr "Промяна на стоката"
+
+#: machina/templates/machina/forum_conversation/partials/topic_form.html:101
+#: machina/templates/machina/forum_conversation/post_create.html:26
+#: machina/templates/machina/forum_conversation/post_update.html:26
+#, fuzzy
+#| msgctxt "Order review title"
+#| msgid "Order review"
+msgid "Preview"
+msgstr "Преглед на поръчка"
+
+#: machina/templates/machina/forum_conversation/post_create.html:5
+#: machina/templates/machina/forum_conversation/post_create.html:20
+#, fuzzy
+#| msgctxt "Address field"
+#| msgid "Postal code"
+msgid "Post a reply"
+msgstr "Пощенски код"
+
+#: machina/templates/machina/forum_conversation/post_create.html:38
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:132
+msgid "Topic review"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/post_create.html:50
+#: machina/templates/machina/forum_conversation/topic_detail.html:52
+#: machina/templates/machina/forum_conversation/topic_list.html:33
+#: machina/templates/machina/forum_member/user_posts_list.html:50
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:85
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:144
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:50
+#: machina/templates/machina/forum_search/search.html:85
+#, python-format
+msgid "By: <a href=\"%(poster_url)s\">%(username)s</a> on %(creation_date)s"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/post_create.html:54
+#: machina/templates/machina/forum_conversation/topic_detail.html:56
+#: machina/templates/machina/forum_conversation/topic_list.html:37
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:89
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:148
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:54
+#: machina/templates/machina/forum_search/search.html:89
+#, python-format
+msgid "By: %(poster_username)s on %(creation_date)s"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/post_delete.html:5
+#: machina/templates/machina/forum_conversation/post_delete.html:12
+msgid "Delete post"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/post_delete.html:15
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid "Are you sure you want to delete this post?"
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_conversation/post_delete.html:18
+#: machina/templates/machina/forum_member/topic_subscribe.html:18
+#: machina/templates/machina/forum_member/topic_unsubscribe.html:18
+#: machina/templates/machina/forum_moderation/moderation_queue/post_approve.html:18
+#: machina/templates/machina/forum_moderation/moderation_queue/post_disapprove.html:18
+#: machina/templates/machina/forum_moderation/topic_delete.html:18
+#: machina/templates/machina/forum_moderation/topic_lock.html:18
+#: machina/templates/machina/forum_moderation/topic_unlock.html:18
+#: machina/templates/machina/forum_moderation/topic_update_type.html:18
+#: machina/templates/machina/forum_tracking/mark_forums_read.html:16
+#: machina/templates/machina/forum_tracking/mark_topics_read.html:16
+msgid "Yes"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/post_delete.html:19
+#: machina/templates/machina/forum_member/topic_subscribe.html:19
+#: machina/templates/machina/forum_member/topic_unsubscribe.html:19
+#: machina/templates/machina/forum_moderation/moderation_queue/post_approve.html:19
+#: machina/templates/machina/forum_moderation/moderation_queue/post_disapprove.html:19
+#: machina/templates/machina/forum_moderation/topic_delete.html:19
+#: machina/templates/machina/forum_moderation/topic_lock.html:19
+#: machina/templates/machina/forum_moderation/topic_unlock.html:19
+#: machina/templates/machina/forum_moderation/topic_update_type.html:19
+#: machina/templates/machina/forum_tracking/mark_forums_read.html:17
+#: machina/templates/machina/forum_tracking/mark_topics_read.html:17
+msgid "No"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/post_update.html:5
+#: machina/templates/machina/forum_conversation/post_update.html:20
+#: machina/templates/machina/forum_conversation/topic_update.html:5
+#: machina/templates/machina/forum_conversation/topic_update.html:23
+#, fuzzy
+#| msgctxt "Product action"
+#| msgid "Edit product"
+msgid "Edit post"
+msgstr "Редактира продукт"
+
+#: machina/templates/machina/forum_conversation/topic_create.html:5
+#: machina/templates/machina/forum_conversation/topic_create.html:23
+msgid "Post a new topic"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/topic_detail.html:33
+#: templates/dashboard/product/detail.html:125
+msgid "Edit"
+msgstr "Редакция"
+
+#: machina/templates/machina/forum_conversation/topic_detail.html:76
+msgid "Last edited by:"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/topic_detail.html:76
+#, fuzzy
+#| msgctxt "Dashboard update action"
+#| msgid "Update"
+msgid "Updated"
+msgstr "Актуализация"
+
+#: machina/templates/machina/forum_conversation/topic_detail.html:76
+msgid "on"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/topic_detail.html:76
+#, python-format
+msgid "edited %(counter)s time in total."
+msgid_plural "edited %(counter)s times in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: machina/templates/machina/forum_conversation/topic_detail.html:81
+msgid "Reason:"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/topic_list.html:12
+msgid "Replies"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/topic_list.html:13
+msgid "Views"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/topic_list.html:28
+msgid "This topic is locked"
+msgstr ""
+
+#: machina/templates/machina/forum_conversation/topic_list.html:73
+#, fuzzy
+#| msgctxt "Empty order notes card message"
+#| msgid "There are no notes associated with this order."
+msgid "There are no topics in this forum."
+msgstr "Няма бележки към тази поръчка."
+
+#: machina/templates/machina/forum_conversation/topic_pages_inline_list.html:5
+msgid "Go to the page:"
+msgstr ""
+
+#: machina/templates/machina/forum_feeds/topics_description.html:5
+msgid "Posted by"
+msgstr ""
+
+#: machina/templates/machina/forum_member/forum_profile_detail.html:4
+#: machina/templates/machina/forum_member/forum_profile_detail.html:9
+#, fuzzy, python-format
+#| msgctxt "Edit/new address breadcrumb"
+#| msgid "Your profile"
+msgid "%(username)s profile"
+msgstr "Твоят профил"
+
+#: machina/templates/machina/forum_member/forum_profile_detail.html:26
+#, fuzzy
+#| msgctxt "Edit/new address breadcrumb"
+#| msgid "Your profile"
+msgid "Edit profile"
+msgstr "Твоят профил"
+
+#: machina/templates/machina/forum_member/forum_profile_detail.html:39
+#, python-format
+msgid ""
+"<h2><strong>%(counter)s</strong></h2>\n"
+"                    <p><small>Post</small></p>"
+msgid_plural ""
+"<h2><strong>%(counter)s</strong></h2>\n"
+"                    <p><small>Posts</small></p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: machina/templates/machina/forum_member/forum_profile_detail.html:44
+#, python-format
+msgid ""
+"<h2><strong>%(counter)s</strong></h2>\n"
+"                    <p><small>Topic</small></p>"
+msgid_plural ""
+"<h2><strong>%(counter)s</strong></h2>\n"
+"                    <p><small>Topics</small></p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: machina/templates/machina/forum_member/forum_profile_detail.html:58
+#, fuzzy
+#| msgctxt "User profile tab"
+#| msgid "Recent Orders"
+msgid "Recent posts"
+msgstr "Последни поръчки"
+
+#: machina/templates/machina/forum_member/forum_profile_detail.html:58
+msgid "View all"
+msgstr ""
+
+#: machina/templates/machina/forum_member/forum_profile_detail.html:68
+#, python-format
+msgid "On %(creation_date)s"
+msgstr ""
+
+#: machina/templates/machina/forum_member/forum_profile_update.html:4
+#: machina/templates/machina/forum_member/forum_profile_update.html:12
+#, fuzzy
+#| msgctxt "Edit/new address breadcrumb"
+#| msgid "Your profile"
+msgid "Edit forum profile"
+msgstr "Твоят профил"
+
+#: machina/templates/machina/forum_member/subscription_topic_list.html:4
+#: machina/templates/machina/forum_member/subscription_topic_list.html:10
+msgid "Topics that you are subscribed to"
+msgstr ""
+
+#: machina/templates/machina/forum_member/subscription_topic_list.html:17
+#, fuzzy, python-format
+#| msgctxt "Voucher type"
+#| msgid "%(discount)s off"
+msgid "%(counter)s topic found"
+msgid_plural "%(counter)s topics found"
+msgstr[0] "%(discount)sот"
+msgstr[1] "%(discount)sот"
+
+#: machina/templates/machina/forum_member/subscription_topic_list.html:31
+#, fuzzy
+#| msgid "No groups found."
+msgid "Not topics found."
+msgstr "Няма намерени групи."
+
+#: machina/templates/machina/forum_member/topic_subscribe.html:5
+#: machina/templates/machina/forum_member/topic_subscribe.html:12
+msgid "Subscribe to topic"
+msgstr ""
+
+#: machina/templates/machina/forum_member/topic_subscribe.html:15
+msgid "Would you like to subscribe to this topic?"
+msgstr ""
+
+#: machina/templates/machina/forum_member/topic_unsubscribe.html:5
+#: machina/templates/machina/forum_member/topic_unsubscribe.html:12
+msgid "Unsubscribe from topic"
+msgstr ""
+
+#: machina/templates/machina/forum_member/topic_unsubscribe.html:15
+msgid "Would you like to unsubscribe from this topic?"
+msgstr ""
+
+#: machina/templates/machina/forum_member/user_posts_list.html:4
+#: machina/templates/machina/forum_member/user_posts_list.html:9
+#, fuzzy
+#| msgid "No images"
+msgid "My messages"
+msgstr "Няма изображения"
+
+#: machina/templates/machina/forum_member/user_posts_list.html:4
+#: machina/templates/machina/forum_member/user_posts_list.html:9
+#, python-format
+msgid "%(username)s's posts"
+msgstr ""
+
+#: machina/templates/machina/forum_member/user_posts_list.html:17
+#, fuzzy, python-format
+#| msgctxt "Voucher type"
+#| msgid "%(discount)s off"
+msgid "%(counter)s post found"
+msgid_plural "%(counter)s posts found"
+msgstr[0] "%(discount)sот"
+msgstr[1] "%(discount)sот"
+
+#: machina/templates/machina/forum_member/user_posts_list.html:24
+#, fuzzy
+#| msgid "No products found."
+msgid "No posts found"
+msgstr "Няма намерени продукти."
+
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:14
+msgid "Disapprove"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:15
+msgid "Approve"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:18
+msgid "New post"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:31
+msgid "<b>1</b> option may be selected"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/detail.html:35
+#, python-format
+msgid "Up to <b>%(max_options)s</b> options may be selected"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:16
+#, python-format
+msgid "%(topic_length)s posts found"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/list.html:78
+msgid "No posts awaiting approval."
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/post_approve.html:5
+#: machina/templates/machina/forum_moderation/moderation_queue/post_approve.html:12
+msgid "Approve post"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/post_approve.html:15
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid "Are you sure you want to approve this post?"
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_moderation/moderation_queue/post_disapprove.html:5
+#: machina/templates/machina/forum_moderation/moderation_queue/post_disapprove.html:12
+msgid "Disapprove post"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/moderation_queue/post_disapprove.html:15
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid ""
+"Are you sure you want to disapprove this post? This post will be deleted."
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_moderation/topic_delete.html:15
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid "Are you sure you want to delete this topic?"
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_moderation/topic_lock.html:15
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid "Are you sure you want to lock this topic?"
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_moderation/topic_move.html:23
+msgid "Move"
+msgstr ""
+
+#: machina/templates/machina/forum_moderation/topic_move.html:24
+#: templates/dashboard/page/form.html:82 templates/dashboard/page/form.html:85
+msgid "Cancel"
+msgstr "Отмяна"
+
+#: machina/templates/machina/forum_moderation/topic_unlock.html:15
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid "Are you sure you want to unlock this topic?"
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_moderation/topic_update_type.html:5
+#: machina/templates/machina/forum_moderation/topic_update_type.html:12
+#, fuzzy
+#| msgctxt "Order table row action"
+#| msgid "Change stock"
+msgid "Change topic type"
+msgstr "Промяна на стоката"
+
+#: machina/templates/machina/forum_search/search.html:5
+#: machina/templates/machina/forum_search/search.html:12
+#: machina/templates/machina/forum_search/search.html:33
+#: machina/templates/machina/forum_search/search.html:43
+#, fuzzy
+#| msgctxt "Dashboard search"
+#| msgid "Search"
+msgid "Search"
+msgstr "Търсене"
+
+#: machina/templates/machina/forum_search/search.html:19
+#, fuzzy
+#| msgctxt "Search page title"
+#| msgid "Search results"
+msgid "Search forums"
+msgstr "Резултати от търсенето"
+
+#: machina/templates/machina/forum_search/search.html:45
+#, fuzzy
+#| msgctxt "Dashboard search"
+#| msgid "Search"
+msgid "New search"
+msgstr "Търсене"
+
+#: machina/templates/machina/forum_search/search.html:51
+#, python-format
+msgid "Your search has returned <b>%(number_of_results)s</b> result"
+msgid_plural "Your search has returned <b>%(number_of_results)s</b> results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: machina/templates/machina/forum_search/search.html:71
+msgid "Results"
+msgstr ""
+
+#: machina/templates/machina/forum_search/search.html:103
+#, fuzzy
+#| msgctxt "Search page title"
+#| msgid "Search results"
+msgid "No results."
+msgstr "Резултати от търсенето"
+
+#: machina/templates/machina/forum_tracking/mark_forums_read.html:13
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid "Are you sure you want to mark forums read?"
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_tracking/mark_topics_read.html:13
+#, fuzzy
+#| msgctxt "Modal remove order line text"
+#| msgid "Are you sure you want remove this order line?"
+msgid "Are you sure you want to mark topics read?"
+msgstr "Искате ли да премахнете тази линия за поръчката?"
+
+#: machina/templates/machina/forum_tracking/unread_topic_list.html:17
+#, python-format
+msgid "%(topic_length)s unread topics found"
+msgstr ""
+
+#: machina/templates/machina/forum_tracking/unread_topic_list.html:27
+#, fuzzy
+#| msgctxt "Empty cart message"
+#| msgid "There are no products in your shopping cart."
+msgid "There are no unread topics."
+msgstr "В кошницата ви няма продукти."
+
+#: machina/templates/machina/partials/breadcrumb.html:4
+msgid "Forum index"
+msgstr ""
 
 #: templates/404.html:6
 msgctxt "Eror page not found"
@@ -3368,14 +5403,6 @@ msgctxt "Page form breadcrumbs"
 msgid "Edit"
 msgstr "Редакция"
 
-#: templates/dashboard/page/form.html:82 templates/dashboard/page/form.html:85
-msgid "Cancel"
-msgstr "Отмяна"
-
-#: templates/dashboard/page/form.html:83
-msgid "Save"
-msgstr "Запазва"
-
 #: templates/dashboard/page/form.html:86
 msgid "Create"
 msgstr "Създава"
@@ -3510,10 +5537,6 @@ msgstr "Вариант"
 msgid "SKU"
 msgstr "SKU"
 
-#: templates/dashboard/product/detail.html:98
-msgid "Name"
-msgstr "Име"
-
 #: templates/dashboard/product/detail.html:99
 msgid "Status"
 msgstr "Статус"
@@ -3521,10 +5544,6 @@ msgstr "Статус"
 #: templates/dashboard/product/detail.html:100
 msgid "Price"
 msgstr "Цена"
-
-#: templates/dashboard/product/detail.html:125
-msgid "Edit"
-msgstr "Редакция"
 
 #: templates/dashboard/product/detail.html:130
 msgctxt "Dashboard product details page"
@@ -4750,11 +6769,6 @@ msgctxt "Dashboard form labels"
 msgid "(optional)"
 msgstr "(По желание)"
 
-#: templates/materializecssform/field.html:199
-#: templates/materializecssform/field.html:233
-msgid "File"
-msgstr "Файл"
-
 #: templates/materializecssform/field.html:348
 #, python-format
 msgctxt ""
@@ -5463,10 +7477,6 @@ msgstr ""
 #~ msgid "One product"
 #~ msgstr "Един продукт"
 
-#~ msgctxt "Voucher: discount for"
-#~ msgid "A category of products"
-#~ msgstr "Категория продукти"
-
 #~ msgctxt "Voucher application"
 #~ msgid "Apply to a single item"
 #~ msgstr "Прилагане към отделен елемент"
@@ -5507,10 +7517,6 @@ msgstr ""
 #~ msgid "%(discount)s off %(category)s"
 #~ msgstr "%(discount)s от %(category)s"
 
-#~ msgctxt "Voucher type"
-#~ msgid "%(discount)s off"
-#~ msgstr "%(discount)sот"
-
 #~ msgctxt "Voucher"
 #~ msgid "Any country"
 #~ msgstr "Всяка държава"
@@ -5534,10 +7540,6 @@ msgstr ""
 #~ msgctxt "Voucher not applicable"
 #~ msgid "Your order does not require shipping."
 #~ msgstr "Поръчката ви не изисква доставка."
-
-#~ msgctxt "Voucher not applicable"
-#~ msgid "Please select a shipping method first."
-#~ msgstr "Моля, изберете метод за доставка."
 
 #~ msgctxt "Voucher not applicable"
 #~ msgid "This offer is only valid in %(country)s."
@@ -5602,10 +7604,6 @@ msgstr ""
 #~ msgid "not yet available"
 #~ msgstr "не е налично"
 
-#~ msgctxt "Product status"
-#~ msgid "ready for purchase"
-#~ msgstr "готово за поръчка"
-
 #~ msgctxt "Variant status"
 #~ msgid "available"
 #~ msgstr "налично"
@@ -5641,14 +7639,6 @@ msgstr ""
 #~ msgctxt "Permission description"
 #~ msgid "Can edit categories"
 #~ msgstr "Може да редактира категориите"
-
-#~ msgctxt "Permission description"
-#~ msgid "Can view products"
-#~ msgstr "Може да вижда продукти"
-
-#~ msgctxt "Permission description"
-#~ msgid "Can edit products"
-#~ msgstr "Може да редактира продукти"
 
 #~ msgctxt "Permission description"
 #~ msgid "Can view product properties"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment="20180521">
+    <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cvm/db.sqlite3" afterPath="$PROJECT_DIR$/cvm/db.sqlite3" />
       <change beforePath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.mo" />
@@ -48,11 +48,15 @@
       <change beforePath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.po" />
       <change beforePath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.mo" />
       <change beforePath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/topic_detail_actions.html" afterPath="$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/topic_detail_actions.html" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/fr_CA/LC_MESSAGES/django.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/fr_CA/LC_MESSAGES/django.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/nl_NL/LC_MESSAGES/django.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/locale/nl_NL/LC_MESSAGES/django.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html" afterPath="$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,11 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="topic_detail_actions.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/topic_detail_actions.html">
+      <file leaf-file-name="topic_detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="22" column="103" lean-forward="true" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
+            <state relative-caret-position="150">
+              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -116,9 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>secre</find>
-      <find>SECRET_KEY</find>
-      <find>ALLOWED_HOSTS</find>
       <find>INSTALLED_APPS</find>
       <find>MIDDLEWARE</find>
       <find>XFrameOptionsMiddleware</find>
@@ -146,7 +147,13 @@
       <find>mail</find>
       <find>{% url &quot;account</find>
       <find>exam</find>
+      <find>topic_detail_actions</find>
+      <find>machina</find>
+      <find>detail_ac</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/machina/templates</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -195,7 +202,10 @@
         <option value="$PROJECT_DIR$/cvm/settings/base.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/cvm/settings/local.py" />
+        <option value="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po" />
+        <option value="$PROJECT_DIR$/machina/locale/ko/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/topic_detail_actions.html" />
+        <option value="$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html" />
       </list>
     </option>
   </component>
@@ -246,37 +256,13 @@
             <path>
               <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
+              <item name="cvm" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="cvm" type="462c0819:PsiDirectoryNode" />
               <item name="machina" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
-              <item name="forum_conversation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
-              <item name="forum_conversation" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526758346843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20180521&#10;add&#10;return to LIST">
+      <created>1530460488068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1530460488068</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -476,6 +469,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3060587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -485,7 +479,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -497,7 +490,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="20180521&#10;add&#10;return to LIST" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180521&#10;add&#10;return to LIST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,48 +501,17 @@
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cvm/settings/base.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cvm/core/utils/filters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="67" column="21" lean-forward="false" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/core/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runfile/secretcvm.json" />
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/celery/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/celery/app/task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -664,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -689,6 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,10 +817,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.mo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/locale/ko/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/topic_detail_actions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="22" column="103" lean-forward="true" selection-start-line="22" selection-start-column="103" selection-end-line="22" selection-end-column="103" />
+        <state relative-caret-position="255">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/post_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/topic_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="72" column="51" lean-forward="false" selection-start-line="72" selection-start-column="51" selection-end-line="72" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="553" column="91" lean-forward="false" selection-start-line="553" selection-start-column="91" selection-end-line="553" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="52" />
           <folding />
         </state>
       </provider>
