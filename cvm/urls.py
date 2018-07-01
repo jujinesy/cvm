@@ -37,6 +37,8 @@ from .core.urls import urlpatterns as core_urls
 
 ###############################custom############################
 from django.contrib import admin
+from machina.app import board
+
 
 # handler404 = 'saleor.core.views.handle_404'
 import sys
@@ -71,6 +73,8 @@ translatable_urlpatterns = [
     # url(r'', include('payments.urls')),
     # url('', include('social_django.urls', namespace='social')),
 
+    ##machina
+    url(r'^forum/', include(board.urls)),
 
 ]
 

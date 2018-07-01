@@ -10,6 +10,11 @@ from django.utils.translation import gettext_lazy as _
 
 from django.core.exceptions import ImproperlyConfigured
 
+##machina
+from machina import get_apps as get_machina_apps
+from machina import MACHINA_MAIN_TEMPLATE_DIR
+from machina import MACHINA_MAIN_STATIC_DIR
+
 def get_list(text):
     return [item.strip() for item in text.split(',')]
 
@@ -51,9 +56,20 @@ WSGI_APPLICATION = 'cvm.wsgi.application'
 # MANAGERS = ADMINS
 #
 # INTERNAL_IPS = get_list(os.environ.get('INTERNAL_IPS', '127.0.0.1')) # DEBUG_TOOLBAR_CONFIG로 무력화가능
-#
-# CACHES = {'default': django_cache_url.config()}
-#
+
+CACHES = {
+    # 'default': django_cache_url.config(),
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    },
+
+    ## machina
+    'machina_attachments': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': '/tmp',
+    },
+}
+
 # if os.environ.get('REDIS_URL'):
 #     CACHES['default'] = {
 #         'BACKEND': 'django_redis.cache.RedisCache',
@@ -132,7 +148,10 @@ STATICFILES_DIRS = [
     ('assets', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'assets')),
     ('favicons', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'favicons')),
     ('images', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'images')),
-    ('dashboard', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'dashboard'))
+    ('dashboard', os.path.join(PROJECT_ROOT, 'cvm', 'static', 'dashboard')),
+
+    ##machina
+    MACHINA_MAIN_STATIC_DIR,
 ]
 
 # STATICFILES_FINDERS = [
@@ -155,7 +174,10 @@ context_processors = [
     # 'saleor.core.context_processors.search_enabled',
     'cvm.site.context_processors.site',
     'social_django.context_processors.backends',
-    'social_django.context_processors.login_redirect'
+    'social_django.context_processors.login_redirect',
+
+    # Machina
+    'machina.core.context_processors.metadata',
 ]
 
 loaders = [
@@ -168,7 +190,8 @@ loaders = [
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(PROJECT_ROOT, 'templates')],
+        'DIRS': [os.path.join(PROJECT_ROOT, 'templates'),
+                 MACHINA_MAIN_TEMPLATE_DIR, ],
         'OPTIONS': {
             'debug': DEBUG,
             'context_processors': context_processors,
@@ -182,8 +205,8 @@ TEMPLATES = [
 SECRET_KEY = get_secret('SECRET_KEY')
 import string, random
 # Get ascii Characters numbers and punctuation (minus quote characters as they could terminate string).
-chars = ''.join([string.ascii_letters, string.digits, string.punctuation]).replace('\'', '').replace('"', '').replace('\\', '')
-SECRET_KEY = ''.join([random.SystemRandom().choice(chars) for i in range(50)])
+# chars = ''.join([string.ascii_letters, string.digits, string.punctuation]).replace('\'', '').replace('"', '').replace('\\', '')
+# SECRET_KEY = ''.join([random.SystemRandom().choice(chars) for i in range(50)])
 print(SECRET_KEY)
 
 MIDDLEWARE = [
@@ -191,7 +214,8 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    # 'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'cvm.core.middleware.JWTAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
@@ -204,7 +228,10 @@ MIDDLEWARE = [
     # 'saleor.core.middleware.currency',
     # 'saleor.core.middleware.site',
     # 'social_django.middleware.SocialAuthExceptionMiddleware',
-    # 'impersonate.middleware.ImpersonateMiddleware'
+    # 'impersonate.middleware.ImpersonateMiddleware',
+
+    # Machina
+    'machina.apps.forum_permission.middleware.ForumPermissionMiddleware',
 ]
 
 INSTALLED_APPS = [
@@ -255,8 +282,13 @@ INSTALLED_APPS = [
     # 'django_filters',
     'django_celery_results',
     # 'impersonate',
-    'phonenumber_field'
-]
+    'phonenumber_field',
+
+    # Machina related apps:
+    'mptt',
+    'haystack',
+    'widget_tweaks',
+] + get_machina_apps()
 
 # if DEBUG:
 #     MIDDLEWARE.append(
@@ -530,4 +562,24 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
+]
+
+## machina
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.simple_backend.SimpleEngine',
+    },
+}
+
+MACHINA_DEFAULT_AUTHENTICATED_USER_FORUM_PERMISSIONS = [
+    'can_see_forum',
+    'can_read_forum',
+    'can_start_new_topics',
+    'can_reply_to_topics',
+    'can_edit_own_posts',
+    'can_post_without_approval',
+    'can_create_polls',
+    'can_vote_in_polls',
+    'can_download_file',
+    'can_attach_file',
 ]
