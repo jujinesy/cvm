@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cvm/db.sqlite3" afterPath="$PROJECT_DIR$/cvm/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/runfile/uwsgi.ini" afterPath="$PROJECT_DIR$/runfile/uwsgi.ini" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -154,8 +153,8 @@
         <option value="$PROJECT_DIR$/cvm/settings/local.py" />
         <option value="$PROJECT_DIR$/runfile/django_nginx_http" />
         <option value="$PROJECT_DIR$/runfile/uwsgi.service" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/runfile/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -423,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530554555044</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="20180521&#10;change&#10;uwsgi.ini-module conf-&gt;cvm&#10;&#10;add">
+      <created>1530558470480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1530558470480</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -478,7 +484,8 @@
     <MESSAGE value="20180521&#10;change&#10;&#10;add&#10;nginx config file" />
     <MESSAGE value="20180521&#10;change&#10;uwsgi&#10;&#10;add" />
     <MESSAGE value="20180521&#10;change&#10;&#10;add&#10;uwsgi.service" />
-    <option name="LAST_COMMIT_MESSAGE" value="20180521&#10;change&#10;&#10;add&#10;uwsgi.service" />
+    <MESSAGE value="20180521&#10;change&#10;uwsgi.ini-module conf-&gt;cvm&#10;&#10;add" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180521&#10;change&#10;uwsgi.ini-module conf-&gt;cvm&#10;&#10;add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runfile/uwsgi.service">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -863,6 +862,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>

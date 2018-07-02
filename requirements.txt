@@ -1,6 +1,7 @@
 pip==9.0.3
 setuptools==39.1.0
 wheel==0.31.1
+uWSGI==2.0.17
 -e .
 
 amqp==2.2.2
