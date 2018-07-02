@@ -1,0 +1,16 @@
+[Unit]
+Description=uWSGI Emperor service
+
+[Service]
+ExecStart=/home/ubuntu/venv/bin/uwsgi \
+        --emperor /home/ubuntu/cvm/runfile
+User=ubuntu
+Group=www-data
+Restart=on-failure
+KillSignal=SIGQUIT
+Type=notify
+NotifyAccess=all
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
