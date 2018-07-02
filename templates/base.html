@@ -182,6 +182,15 @@
         <div class="navbar__menu container d-block">
             <nav class="navigation">
                 {#        {% menu 'navbar' horizontal=True %}#}
+
+                <ul class="menu nav mb-4 mb-md-0">
+                    <li class="nav-item  menu__item">
+                        <a class="nav-link" href="{% url "forum:index" %}forum/1-1">
+                            Free Forum
+                        </a>
+                    </li>
+                </ul>
+
             </nav>
         </div>
     </header>
@@ -271,28 +280,28 @@
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-12">
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://www.facebook.com/mirumeelabs/">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://www.facebook.com">
                         <svg data-src="{% static "images/facebook-logo.svg" %}" width="45px" height="45px"/>
                     </a>
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://github.com/mirumee/saleor">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://github.com">
                         <svg data-src="{% static "images/github-logo.svg" %}" width="45px" height="45px"/>
                     </a>
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://twitter.com/getsaleor">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://twitter.com">
                         <svg data-src="{% static "images/twitter-logo.svg" %}" width="45px" height="45px"/>
                     </a>
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://plus.google.com/+Mirumee">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://plus.google.com">
                         <svg data-src="{% static "images/google-logo.svg" %}" width="45px" height="45px"/>
                     </a>
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://www.meetup.com/Mirumee-Talks/">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://www.meetup.com">
                         <svg data-src="{% static "images/meetup-logo.svg" %}" width="45px" height="45px"/>
                     </a>
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://linkedin.com/company/mirumee-software">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://linkedin.com">
                         <svg data-src="{% static "images/linkedin-logo.svg" %}" width="45px" height="45px"/>
                     </a>
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://dribbble.com/mirumee">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://dribbble.com">
                         <svg data-src="{% static "images/dribbble-logo.svg" %}" width="45px" height="45px"/>
                     </a>
-                    <a target="_blank" rel="noopener" class="social-footer" href="https://www.instagram.com/explore/tags/mirumee/">
+                    <a target="_blank" rel="noopener" class="social-footer" href="https://www.instagram.com">
                         <svg data-src="{% static "images/instagram-logo.svg" %}" width="45px" height="45px"/>
                     </a>
                 </div>

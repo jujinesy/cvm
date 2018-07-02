@@ -40,7 +40,8 @@ from django.contrib import admin
 from machina.app import board
 
 
-# handler404 = 'saleor.core.views.handle_404'
+handler404 = 'cvm.core.views.handle_404'
+handler403 = 'cvm.core.views.handle_404'
 import sys
 print (sys.path)
 

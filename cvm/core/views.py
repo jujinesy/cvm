@@ -44,7 +44,7 @@ def home(request):
 
 
 def handle_404(request, exception=None):
-    return TemplateResponse(request, '404.html', status=404)
+    return TemplateResponse(request, 'home.html', status=404)
 
 
 def manifest(request):

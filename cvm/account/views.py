@@ -74,11 +74,12 @@ def password_reset_confirm(request, uidb64=None, token=None):
 @login_required
 def details(request):
     password_form = get_or_process_password_form(request)
-    orders = request.user.orders.confirmed().prefetch_related('lines')
-    orders_paginated = get_paginator_items(
-        orders, settings.PAGINATE_BY, request.GET.get('page'))
-    ctx = {'addresses': request.user.addresses.all(),
-           'orders': orders_paginated,
+    # orders = request.user.orders.confirmed().prefetch_related('lines')
+    # orders_paginated = get_paginator_items(
+    #     orders, settings.PAGINATE_BY, request.GET.get('page'))
+    ctx = {
+        # 'addresses': request.user.addresses.all(),
+        #    'orders': orders_paginated,
            'change_password_form': password_form}
 
     return TemplateResponse(request, 'account/details.html', ctx)
