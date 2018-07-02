@@ -1,0 +1,69 @@
+upstream django {
+	server unix:/home/ubuntu/ShirtGeeks/runfile/uwsgi.sock;
+}
+
+#
+# Redirect all www to non-www
+#
+server {
+	server_name www.sh3ltr.org;
+	ssl_certificate /etc/letsencrypt/live/sh3ltr.org/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/sh3ltr.org/privkey.pem;
+	listen *:80;
+	listen *:443 ssl spdy;
+	listen [::]:80 ipv6only=on;
+	listen [::]:443 ssl spdy ipv6only=on;
+
+	return 301 https://sh3ltr.org$request_uri;
+}
+
+#
+# Redirect all non-encrypted to encrypted
+#
+server {
+	server_name	sh3ltr.org;
+	listen	*:80;
+	listen	[::]:80;
+
+	return 301 https://sh3ltr.org$request_uri;
+}
+
+#
+# There we go!
+#
+server {
+	server_name sh3ltr.org;
+	listen *:443 ssl spdy;
+	listen [::]:443 ssl spdy;
+
+	ssl on;
+	ssl_certificate /etc/letsencrypt/live/sh3ltr.org/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/sh3ltr.org/privkey.pem;
+
+	location = /favicon.ico { access_log off; log_not_found off; }
+
+	#charset	utf-8;
+
+	# max upload size
+	client_max_body_size 75M;   # adjust to taste
+
+	# Django media
+	location /media  {
+		alias /home/ubuntu/ShirtGeeks/src/Media;
+	}
+
+	location /static {
+		alias /home/ubuntu/ShirtGeeks/src/Static/Static_Server;
+	}
+
+	location / {
+		uwsgi_pass django;
+		include /etc/nginx/uwsgi_params;
+	}
+
+	error_page 500 502 503 504 /custom_50x.html;
+	location = /custom_50x.html {
+		root /home/ubuntu/ShirtGeeks/runfile/page;
+		internal;
+	}
+}

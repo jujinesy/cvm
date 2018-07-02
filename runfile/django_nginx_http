@@ -1,0 +1,35 @@
+set $upstream_path 'home/ubuntu/cvm/runfile/uwsgi.sock';
+
+upstream path {
+	server unix:/$upstream_path;
+}
+
+server {
+	server_name 10.211.55.7;
+	listen 80;
+
+	location = /favicon.ico {
+		access_log off; log_not_found off;
+	}
+
+	client_max_body_size 200M;
+
+	location /media  {
+		alias /home/ubuntu/cvm/media;
+	}
+
+	location /static {
+		alias /home/ubuntu/cvm/static;
+	}
+
+	location / {
+		include		/etc/nginx/uwsgi_params;
+		uwsgi_pass	path;
+	}
+
+	error_page 500 502 503 504 /custom_50x.html;
+	location = /custom_50x.html {
+		root /home/ubuntu/cvm/runfile/page;
+		internal;
+	}
+}
