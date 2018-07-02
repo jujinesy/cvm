@@ -2,61 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/templatetags/custom_tags.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cvm/db.sqlite3" afterPath="$PROJECT_DIR$/cvm/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/bg/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/bg_BG/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/de/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/en/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/es/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/fa_IR/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/fr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/hu/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/it/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/ja/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/ko/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/nb/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/nl/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/pl/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/pt_BR/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/ro/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/ru/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/sk/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/tr/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/uk/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/vi/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.mo" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.mo" />
-      <change beforePath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.po" afterPath="$PROJECT_DIR$/locale/zh/LC_MESSAGES/django.po" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/fr_CA/LC_MESSAGES/django.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/fr_CA/LC_MESSAGES/django.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/nb/LC_MESSAGES/django.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/nl_NL/LC_MESSAGES/django.mo" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/locale/nl_NL/LC_MESSAGES/django.po" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html" afterPath="$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html" />
+      <change beforePath="$PROJECT_DIR$/cvm/settings/base.py" afterPath="$PROJECT_DIR$/cvm/settings/base.py" />
+      <change beforePath="$PROJECT_DIR$/cvm/settings/local.py" afterPath="$PROJECT_DIR$/cvm/settings/local.py" />
+      <change beforePath="$PROJECT_DIR$/cvm/settings/production.py" afterPath="$PROJECT_DIR$/cvm/settings/production.py" />
+      <change beforePath="$PROJECT_DIR$/cvm/settings/production_test.py" afterPath="$PROJECT_DIR$/cvm/settings/production_test.py" />
+      <change beforePath="$PROJECT_DIR$/cvm/static/images/logo.svg" afterPath="$PROJECT_DIR$/cvm/static/images/logo.svg" />
+      <change beforePath="$PROJECT_DIR$/cvm/urls.py" afterPath="$PROJECT_DIR$/cvm/urls.py" />
+      <change beforePath="$PROJECT_DIR$/machina/static/machina/build/css/machina.board_theme.vendor.min.css" afterPath="$PROJECT_DIR$/machina/static/machina/build/css/machina.board_theme.vendor.min.css" />
+      <change beforePath="$PROJECT_DIR$/machina/templates/machina/_base.html" afterPath="$PROJECT_DIR$/machina/templates/machina/_base.html" />
+      <change beforePath="$PROJECT_DIR$/machina/templates/machina/board_base.html" afterPath="$PROJECT_DIR$/machina/templates/machina/board_base.html" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="topic_detail.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cvm/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="197">
+              <caret line="145" column="20" lean-forward="false" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -115,20 +74,12 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>INSTALLED_APPS</find>
-      <find>MIDDLEWARE</find>
-      <find>XFrameOptionsMiddleware</find>
-      <find>ROOT_URLCONF</find>
-      <find>TEMPLATES</find>
-      <find>WSGI_APPLICATION</find>
-      <find>DATABASES</find>
-      <find>AUTH_PASSWORD_VALIDATORS</find>
-      <find>LANGUAGE_CODE</find>
       <find>psycopg2</find>
       <find>django.contrib.auth.context_processors.auth</find>
       <find>webpack_loader</find>
@@ -150,9 +101,19 @@
       <find>topic_detail_actions</find>
       <find>machina</find>
       <find>detail_ac</find>
+      <find>GOOGLE_ANALYTICS</find>
+      <find>webkit-tap-highlight-color</find>
+      <find>dash</find>
+      <find>admin</find>
+      <find>logo</find>
+      <find>&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; version=&quot;1.1&quot; id</find>
+      <find>&lt;div class=&quot;col-8 col-md-4 navbar__logo&quot;&gt;</find>
+      <find>http://www.w3.org/2000/svg</find>
+      <find>rando</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/machina/templates</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -189,23 +150,30 @@
         <option value="$PROJECT_DIR$/cvm/core/urls.py" />
         <option value="$PROJECT_DIR$/cvm/core/views.py" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/cvm/site/utils.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cvm/celeryconf.py" />
         <option value="$PROJECT_DIR$/cvm/__init__.py" />
         <option value="$PROJECT_DIR$/cvm/account/views.py" />
-        <option value="$PROJECT_DIR$/cvm/urls.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/cvm/account/emails.py" />
-        <option value="$PROJECT_DIR$/cvm/settings/base.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/cvm/settings/local.py" />
         <option value="$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/machina/locale/ko/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/machina/templates/machina/forum_conversation/partials/topic_detail_actions.html" />
         <option value="$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/machina/templates/machina/_base.html" />
+        <option value="$PROJECT_DIR$/machina/templates/machina/board_base.html" />
+        <option value="$PROJECT_DIR$/cvm/settings/local.py" />
+        <option value="$PROJECT_DIR$/templatetags/custom_tags.py" />
+        <option value="$PROJECT_DIR$/cvm/settings/production.py" />
+        <option value="$PROJECT_DIR$/cvm/settings/production_test.py" />
+        <option value="$PROJECT_DIR$/machina/static/machina/build/css/machina.board_theme.vendor.min.css" />
+        <option value="$PROJECT_DIR$/cvm/urls.py" />
+        <option value="$PROJECT_DIR$/cvm/settings/base.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/cvm/static/images/logo.svg" />
       </list>
     </option>
   </component>
@@ -247,22 +215,6 @@
             <path>
               <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="cvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cvm" type="462c0819:PsiDirectoryNode" />
-              <item name="machina" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -454,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530460488068</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20180521&#10;change&#10;col-xs-6 col-md-4 topic-actions-block -&gt; col-xs-12 col-md-4 topic-actions-block">
+      <created>1530462807780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530462807780</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -462,13 +421,13 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.50468457" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.49531543" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49531543" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3060587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23797627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -491,7 +450,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="20180521&#10;add&#10;return to LIST" />
-    <option name="LAST_COMMIT_MESSAGE" value="20180521&#10;add&#10;return to LIST" />
+    <MESSAGE value="20180521&#10;change&#10;col-xs-6 col-md-4 topic-actions-block -&gt; col-xs-12 col-md-4 topic-actions-block" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180521&#10;change&#10;col-xs-6 col-md-4 topic-actions-block -&gt; col-xs-12 col-md-4 topic-actions-block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -501,132 +461,12 @@
           <line>10</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cvm/settings/base.py</url>
-          <line>108</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/celery/app/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="412" column="0" lean-forward="false" selection-start-line="412" selection-start-column="0" selection-end-line="412" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/contrib/auth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="288" column="0" lean-forward="false" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/views/generic/edit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/contrib/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6105">
-          <caret line="438" column="0" lean-forward="false" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/utils/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/utils/deprecation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/core/handlers/exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/utils/autoreload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3975">
-          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/account/emails.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/celery/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/account/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="119" column="37" lean-forward="false" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -638,14 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/settings/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,20 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.django_session">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.django_site">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.site_authorizationkey">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -810,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.site_sitesettings">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machina/locale/en/LC_MESSAGES/django.po">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -865,18 +676,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cvm/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="553" column="91" lean-forward="false" selection-start-line="553" selection-start-column="91" selection-end-line="553" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/machina/templates/machina/forum_conversation/topic_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/templates/machina/_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/templates/machina/board_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <marker date="1530465336933" expanded="false" signature="169:176" ph="—" />
+            <marker date="1530465336933" expanded="false" signature="547:553" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templatetags/custom_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/settings/production_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machina/static/machina/build/css/machina.board_theme.vendor.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="4" column="15569" lean-forward="true" selection-start-line="4" selection-start-column="15569" selection-end-line="4" selection-end-column="15569" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.django_site">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/9c93561a/7a38d329-eea4-4e5c-b7d0-6f2aaff472e4/main.site_sitesettings">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/core/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="103" column="36" lean-forward="true" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/views/i18n.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/cvm/lib/python3.6/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="278" column="8" lean-forward="false" selection-start-line="278" selection-start-column="8" selection-end-line="278" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="66" column="79" lean-forward="true" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
+          <folding>
+            <element signature="e#637#669#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/snippets/google-functions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/static/images/logo.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="134" column="85" lean-forward="false" selection-start-line="134" selection-start-column="85" selection-end-line="134" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cvm/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="145" column="20" lean-forward="false" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
           <folding />
         </state>
       </provider>

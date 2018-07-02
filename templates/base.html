@@ -6,6 +6,9 @@
 {#{% load placeholder %}#}
 {% load translate_url from urls %}
 
+{% load custom_tags %}
+{% get_settings_value admin_address "ADMIN_ADDRESS" %}
+
 <html lang="{{ LANGUAGE_CODE }}" class="no-js" data-shipping-options-url="" data-cart-summary-url="/a">
 {#<html lang="{{ LANGUAGE_CODE }}" class="no-js" data-shipping-options-url="{% url 'cart:shipping-options' %}" data-cart-summary-url="{% url 'cart:cart-summary' %}">#}
 <head>
@@ -43,9 +46,24 @@
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+
+
+
+
+    {#<title>{% block head_title %}Shirt Geeks{% endblock head_title %}</title>#}
+    {#{% include 'snippets/css.html' %}#}
+    {% include 'snippets/google-functions.html' %}
+    {% block css %}
+    {% endblock css %}
+
+    {% block extra_css %}
+    {% endblock extra_css %}
 </head>
 
+
 <body>
+{% block js %}
+{% endblock js %}
 {% block header %}
     <header class="navbar" role="navigation">
         <div class="navbar__login container-fluid {% if user.is_impersonate %} bg-warning{% endif %}">
@@ -60,16 +78,21 @@
                             {% if user.is_authenticated %}
                                 {% if user.is_staff or request.impersonator.is_staff %}
                                     <li>
-                                        {#                          <a href="{% url "dashboard:index" %}" target="_blank" rel="noopener">#}
+                                        <a href="{% url "home" %}{{ admin_address }}" target="_blank" rel="noopener">
+                                        {% trans "ADMIN" context "Main navigation item" %}
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" target="_blank" rel="noopener">{# {% url "dashboard:index" %} #}
                                         {% trans "Dashboard" context "Main navigation item" %}
-                                        {#                          </a>#}
+                                        </a>
                                     </li>
                                 {% endif %}
-                                <li>
-                                    <a href="{% url "account:details" %}">
-                                        {% trans "Your account" context "Main navigation item" %}
-                                    </a>
-                                </li>
+                                    <li>
+                                        <a href="{% url "account:details" %}">
+                                            {% trans "Your account" context "Main navigation item" %}
+                                        </a>
+                                    </li>
                                 {% if user.is_impersonate %}
                                     <li>
                                         {#                          <a href="{% url "impersonate-stop" %}">#}
@@ -109,7 +132,7 @@
                             <span>{% trans "menu" context "Hamburger button text" %}</span>
                         </div>
                         <a href="{% url 'home' %}">
-                            <svg data-src="{% static "images/logo.svg" %}" height="38px" width="176px"/>
+                            <svg data-src="{% static "images/logo.svg" %}" height="76px" width="176px"/>
                         </a>
                     </div>
                     <div class="col-2 col-md-4 navbar__search static">
@@ -200,9 +223,14 @@
                         {% if user.is_authenticated %}
                             {% if user.is_staff %}
                                 <li>
-                                    {#                                    <a href="{% url "dashboard:index" %}" target="_blank" rel="noopener">#}
+                                    <a href="{% url "home" %}{{ admin_address }}" target="_blank" rel="noopener">
+                                    {% trans "ADMIN" context "Main navigation item" %}
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" target="_blank" rel="noopener">{# {% url "dashboard:index" %} #}
                                     {% trans "Dashboard" context "Main navigation item" %}
-                                    {#                                    </a>#}
+                                    </a>
                                 </li>
                                 <li>
                                     {#                                    <a href="{% url "styleguide" %}" target="_blank">#}
@@ -276,5 +304,7 @@
     <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
     {% render_bundle 'storefront' 'js' %}
 {% endblock footer_scripts %}
+{% block extra_js %}
+{% endblock extra_js %}
 </body>
 </html>

@@ -52,8 +52,6 @@ non_translatable_urlpatterns = [
     # url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
     #     name='django.contrib.sitemaps.views.sitemap'),
     url(r'^i18n/$', set_language, name='set_language'),
-
-    url(r'^admin/', admin.site.urls),
 ]
 
 translatable_urlpatterns = [
@@ -75,6 +73,9 @@ translatable_urlpatterns = [
 
     ##machina
     url(r'^forum/', include(board.urls)),
+
+    ##custom
+    url(r'^'+settings.ADMIN_ADDRESS+'/', admin.site.urls),
 
 ]
 

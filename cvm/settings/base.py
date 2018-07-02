@@ -196,7 +196,10 @@ TEMPLATES = [
             'debug': DEBUG,
             'context_processors': context_processors,
             'loaders': loaders,
-            'string_if_invalid': '<< MISSING VARIABLE "%s" >>' if DEBUG else ''
+            'string_if_invalid': '<< MISSING VARIABLE "%s" >>' if DEBUG else '',
+            'libraries': {
+                'custom_tags': 'templatetags.custom_tags',
+            },
         },
     },
 ]
@@ -205,9 +208,9 @@ TEMPLATES = [
 SECRET_KEY = get_secret('SECRET_KEY')
 import string, random
 # Get ascii Characters numbers and punctuation (minus quote characters as they could terminate string).
-# chars = ''.join([string.ascii_letters, string.digits, string.punctuation]).replace('\'', '').replace('"', '').replace('\\', '')
-# SECRET_KEY = ''.join([random.SystemRandom().choice(chars) for i in range(50)])
-print(SECRET_KEY)
+chars = ''.join([string.ascii_letters, string.digits, string.punctuation]).replace('\'', '').replace('"', '').replace('\\', '')
+SECRET_KEY = ''.join([random.SystemRandom().choice(chars) for i in range(50)])
+print('SECRET_KEY : '+SECRET_KEY)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -583,3 +586,8 @@ MACHINA_DEFAULT_AUTHENTICATED_USER_FORUM_PERMISSIONS = [
     'can_download_file',
     'can_attach_file',
 ]
+
+##custom
+chars = ''.join([string.ascii_letters, string.digits])
+ADMIN_ADDRESS = ''.join([random.SystemRandom().choice(chars) for i in range(120)])
+print('ADMIN_ADDRESS : ' + ADMIN_ADDRESS)

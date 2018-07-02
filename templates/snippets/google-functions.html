@@ -1,0 +1,25 @@
+{% load custom_tags %}
+{% get_settings_value settings_local "LOCAL" %}
+{% get_settings_value GOOGLE_ANALYTICS "GOOGLE_ANALYTICS" %}
+{% get_settings_value GOOGLE_ADSENSE "GOOGLE_ADSENSE" %}
+
+{% if settings_local == False %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_ANALYTICS }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ GOOGLE_ANALYTICS }}');
+</script>
+
+<!-- Google Adsense -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "{{ GOOGLE_ADSENSE }}",
+    enable_page_level_ads: true
+  });
+</script>
+{% endif %}
