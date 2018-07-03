@@ -1,7 +1,5 @@
-set $upstream_path 'home/ubuntu/cvm/runfile/uwsgi.sock';
-
 upstream path {
-	server unix:/$upstream_path;
+	server unix:/home/ubuntu/cvm/runfile/uwsgi.sock;
 }
 
 server {
