@@ -591,3 +591,5 @@ MACHINA_DEFAULT_AUTHENTICATED_USER_FORUM_PERMISSIONS = [
 chars = ''.join([string.ascii_letters, string.digits])
 ADMIN_ADDRESS = ''.join([random.SystemRandom().choice(chars) for i in range(120)])
 print('ADMIN_ADDRESS : ' + ADMIN_ADDRESS)
+
+LOCAL = False
