@@ -3,7 +3,7 @@ upstream path {
 }
 
 server {
-	server_name 10.211.55.7;
+	server_name 10.211.55.7 13.125.253.10 sh3ltr.org www.sh3ltr.org 13.209.42.36 columbusvideomap.com www.columbusvideomap.com;
 	listen 80;
 
 	location = /favicon.ico {

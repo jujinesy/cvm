@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0cfca59-03f6-430d-bd0e-25c80e11af57" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/runfile/default" afterPath="$PROJECT_DIR$/runfile/default" />
-      <change beforePath="$PROJECT_DIR$/runfile/django_nginx_https" afterPath="$PROJECT_DIR$/runfile/django_nginx_https" />
-      <change beforePath="$PROJECT_DIR$/runfile/django_nginx_https_test" afterPath="$PROJECT_DIR$/runfile/django_nginx_https_test" />
+      <change beforePath="$PROJECT_DIR$/runfile/django_nginx_http" afterPath="$PROJECT_DIR$/runfile/django_nginx_http" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,21 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="django_nginx_https_test" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runfile/django_nginx_https_test">
+      <file leaf-file-name="django_nginx_http" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runfile/django_nginx_http">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="django_nginx_https" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/runfile/django_nginx_https">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -174,10 +162,10 @@
         <option value="$PROJECT_DIR$/runfile/uwsgi.service" />
         <option value="$PROJECT_DIR$/runfile/uwsgi.ini" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/runfile/django_nginx_http" />
         <option value="$PROJECT_DIR$/runfile/django_nginx_https_test" />
         <option value="$PROJECT_DIR$/runfile/default" />
         <option value="$PROJECT_DIR$/runfile/django_nginx_https" />
+        <option value="$PROJECT_DIR$/runfile/django_nginx_http" />
       </list>
     </option>
   </component>
@@ -218,6 +206,11 @@
             <path>
               <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="cvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cvm" type="462c0819:PsiDirectoryNode" />
+              <item name="runfile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530608747389</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20180521&#10;change&#10;nginx&#10;&#10;add">
+      <created>1530612068662</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1530612068662</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -881,14 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runfile/django_nginx_http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runfile/default">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -907,8 +899,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runfile/django_nginx_https">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runfile/django_nginx_http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
           <folding />
         </state>
       </provider>
