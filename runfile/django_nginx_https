@@ -1,59 +1,57 @@
 upstream django {
-	server unix:/home/ubuntu/ShirtGeeks/runfile/uwsgi.sock;
+	server unix:/home/ubuntu/cvm/runfile/uwsgi.sock;
 }
 
 #
 # Redirect all www to non-www
 #
 server {
-	server_name www.AAAAAAAAAAAAAAAAAAAAA.com;
-	ssl_certificate /etc/letsencrypt/live/AAAAAAAAAAAAAAAAAAAAA.com/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/AAAAAAAAAAAAAAAAAAAAA.com/privkey.pem;
+	server_name www.columbusvideomap.com;
+	ssl_certificate /etc/letsencrypt/live/columbusvideomap.com/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/columbusvideomap.com/privkey.pem;
 	listen *:80;
 	listen *:443 ssl spdy;
 	listen [::]:80 ipv6only=on;
 	listen [::]:443 ssl spdy ipv6only=on;
 
-	return 301 https://AAAAAAAAAAAAAAAAAAAAA.com$request_uri;
+	return 301 https://columbusvideomap.com$request_uri;
 }
 
 #
 # Redirect all non-encrypted to encrypted
 #
 server {
-	server_name	AAAAAAAAAAAAAAAAAAAAA.com;
+	server_name	columbusvideomap.com;
 	listen	*:80;
 	listen	[::]:80;
 
-	return 301 https://AAAAAAAAAAAAAAAAAAAAA.com$request_uri;
+	return 301 https://columbusvideomap.com$request_uri;
 }
 
 #
 # There we go!
 #
 server {
-	server_name AAAAAAAAAAAAAAAAAAAAA.com;
+	server_name columbusvideomap.com;
 	listen *:443 ssl spdy;
 	listen [::]:443 ssl spdy;
 
 	ssl on;
-	ssl_certificate /etc/letsencrypt/live/AAAAAAAAAAAAAAAAAAAAA.com/fullchain.pem;
-	ssl_certificate_key /etc/letsencrypt/live/AAAAAAAAAAAAAAAAAAAAA.com/privkey.pem;
+	ssl_certificate /etc/letsencrypt/live/columbusvideomap.com/fullchain.pem;
+	ssl_certificate_key /etc/letsencrypt/live/columbusvideomap.com/privkey.pem;
 
-	location = /favicon.ico { access_log off; log_not_found off; }
+	location = /favicon.ico {
+		access_log off; log_not_found off;
+	}
 
-	#charset	utf-8;
+	client_max_body_size 200M;
 
-	# max upload size
-	client_max_body_size 75M;   # adjust to taste
-
-	# Django media
 	location /media  {
-		alias /home/ubuntu/ShirtGeeks/src/Media;
+		alias /home/ubuntu/cvm/media;
 	}
 
 	location /static {
-		alias /home/ubuntu/ShirtGeeks/src/Static/Static_Server;
+		alias /home/ubuntu/cvm/static;
 	}
 
 	location / {
@@ -63,7 +61,7 @@ server {
 
 	error_page 500 502 503 504 /custom_50x.html;
 	location = /custom_50x.html {
-		root /home/ubuntu/ShirtGeeks/runfile/page;
+		root /home/ubuntu/cvm/runfile/page;
 		internal;
 	}
 }

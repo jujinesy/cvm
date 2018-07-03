@@ -1,5 +1,5 @@
 upstream django {
-	server unix:/home/ubuntu/ShirtGeeks/runfile/uwsgi.sock;
+	server unix:/home/ubuntu/cvm/runfile/uwsgi.sock;
 }
 
 #
@@ -40,20 +40,18 @@ server {
 	ssl_certificate /etc/letsencrypt/live/sh3ltr.org/fullchain.pem;
 	ssl_certificate_key /etc/letsencrypt/live/sh3ltr.org/privkey.pem;
 
-	location = /favicon.ico { access_log off; log_not_found off; }
+	location = /favicon.ico {
+		access_log off; log_not_found off;
+	}
 
-	#charset	utf-8;
+	client_max_body_size 200M;
 
-	# max upload size
-	client_max_body_size 75M;   # adjust to taste
-
-	# Django media
 	location /media  {
-		alias /home/ubuntu/ShirtGeeks/src/Media;
+		alias /home/ubuntu/cvm/media;
 	}
 
 	location /static {
-		alias /home/ubuntu/ShirtGeeks/src/Static/Static_Server;
+		alias /home/ubuntu/cvm/static;
 	}
 
 	location / {
@@ -63,7 +61,7 @@ server {
 
 	error_page 500 502 503 504 /custom_50x.html;
 	location = /custom_50x.html {
-		root /home/ubuntu/ShirtGeeks/runfile/page;
+		root /home/ubuntu/cvm/runfile/page;
 		internal;
 	}
 }

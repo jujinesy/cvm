@@ -49,13 +49,13 @@ server {
 
 	error_page 404 /custom_404.html;
 	location = /custom_404.html {
-		root /home/ubuntu/ShirtGeeks/runfile/page;
+		root /home/ubuntu/cvm/runfile/page;
 		internal;
 	}
 
 	error_page 500 502 503 504 /custom_50x.html;
 	location = /custom_50x.html {
-		root /home/ubuntu/ShirtGeeks/runfile/page;
+		root /home/ubuntu/cvm/runfile/page;
 		internal;
 	}
 
